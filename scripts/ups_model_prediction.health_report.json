@@ -1,0 +1,112 @@
+{
+  "timestamp": "2025-09-02T07:42:14.732352",
+  "total_ups": 12,
+  "healthy_count": 10,
+  "warning_count": 2,
+  "failed_count": 0,
+  "high_risk_count": 1,
+  "predictions_summary": {
+    "total_predictions": 12,
+    "healthy_predictions": 10,
+    "failure_predictions": 2,
+    "average_confidence": 0.592
+  },
+  "ups_details": [
+    {
+      "id": "68b10a17a4874a80e1ff1b83",
+      "name": "Data Center Main",
+      "status": "healthy",
+      "battery_level": 73.99,
+      "temperature": 25.32,
+      "efficiency": 98.46
+    },
+    {
+      "id": "68b10a17a4874a80e1ff1b84",
+      "name": "Server Room Alpha",
+      "status": "warning",
+      "battery_level": 24.61,
+      "temperature": 42.26,
+      "efficiency": 85.31
+    },
+    {
+      "id": "68b10a17a4874a80e1ff1b85",
+      "name": "Network Equipment",
+      "status": "healthy",
+      "battery_level": 77.22,
+      "temperature": 26.86,
+      "efficiency": 94.24
+    },
+    {
+      "id": "68b10a17a4874a80e1ff1b86",
+      "name": "Emergency Systems",
+      "status": "healthy",
+      "battery_level": 72.71,
+      "temperature": 19.68,
+      "efficiency": 95.43
+    },
+    {
+      "id": "68b10a17a4874a80e1ff1b87",
+      "name": "Lab Equipment",
+      "status": "healthy",
+      "battery_level": 64.41,
+      "temperature": 28.79,
+      "efficiency": 92.57
+    },
+    {
+      "id": "68b10a17a4874a80e1ff1b88",
+      "name": "Communications Hub",
+      "status": "healthy",
+      "battery_level": 76.14,
+      "temperature": 35.3,
+      "efficiency": 93.75
+    },
+    {
+      "id": "68b10a17a4874a80e1ff1b89",
+      "name": "Backup Systems",
+      "status": "healthy",
+      "battery_level": 81.66,
+      "temperature": 40.57,
+      "efficiency": 98.71
+    },
+    {
+      "id": "68b10a17a4874a80e1ff1b8a",
+      "name": "Security Systems",
+      "status": "warning",
+      "battery_level": 24.29,
+      "temperature": 36.95,
+      "efficiency": 87.33
+    },
+    {
+      "id": "68b10acfa657e26b93321b84",
+      "name": "Network Operations Center",
+      "status": "healthy",
+      "battery_level": 70.16,
+      "temperature": 31.26,
+      "efficiency": 90.94
+    },
+    {
+      "id": "68b10acfa657e26b93321b85",
+      "name": "Data Center Primary",
+      "status": "healthy",
+      "battery_level": 69.59,
+      "temperature": 28.99,
+      "efficiency": 92.4
+    },
+    {
+      "id": "68b10acfa657e26b93321b86",
+      "name": "Emergency Backup System",
+      "status": "healthy",
+      "battery_level": 70.64,
+      "temperature": 17.51,
+      "efficiency": 94.22
+    },
+    {
+      "id": "68b10acfa657e26b93321b87",
+      "name": "Storage Backup Power",
+      "status": "healthy",
+      "battery_level": 73.57,
+      "temperature": 33.03,
+      "efficiency": 97.18
+    }
+  ]
+}

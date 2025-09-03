@@ -1,0 +1,34 @@
+version: '3.8'
+
+services:
+  # MongoDB Atlas (Cloud) - No local MongoDB container needed
+  
+  # Backend API
+  backend:
+    build: .
+    container_name: ups-backend
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    environment:
+      - MONGODB_URI=mongodb+srv://vamsidulam11:vamsi2005121@cluster0.4kq3vjn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+      - DB_NAME=UPS_DATA_MONITORING
+      - COLLECTION=upsdata
+    volumes:
+      - ./data:/app/data
+      - ./logs:/app/logs
+    networks:
+      - ups-network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+
+networks:
+  ups-network:
+    driver: bridge
+
+# Note: Local MongoDB service has been removed
+# All data is now stored in MongoDB Atlas cloud database
