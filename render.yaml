@@ -2,6 +2,7 @@ services:
   - type: web
     name: ups-backend
     env: python
+    region: singapore
     buildCommand: |
       pip install --upgrade pip setuptools wheel
       pip install -r requirements.txt
