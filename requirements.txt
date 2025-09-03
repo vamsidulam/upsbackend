@@ -1,13 +1,18 @@
 fastapi==0.104.1
-uvicorn[standard]==0.24.0
+uvicorn[standard]==0.24.0.post1
 pymongo==4.6.0
 python-dotenv==1.0.0
-pandas==2.1.4
-numpy==1.24.3
+
+# Data science stack (pinned to versions that work well with Python 3.11)
+numpy==1.26.4
+pandas==2.2.2
 scikit-learn==1.3.2
 joblib==1.3.2
+
 schedule==1.2.0
 websockets==12.0
 requests==2.31.0
 psutil==5.9.6
+
+# Google Generative AI
 google-generativeai==0.3.2
