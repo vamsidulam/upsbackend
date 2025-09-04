@@ -1,5 +1,6 @@
-from fastapi import FastAPI, HTTPException, Query, WebSocket, WebSocketDisconnect
+from fastapi import FastAPI, HTTPException, Query, WebSocket, WebSocketDisconnect, Depends
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.security import HTTPBearer, HTTPAuthorizationCredentials
 from pymongo import MongoClient
 from bson import ObjectId
 from datetime import datetime, timedelta
@@ -22,6 +23,10 @@ from ml.gemini_service import GeminiAIService
 import continuous_predictions
 import scripts.ups_monitor_service as monitor
 
+# Import authentication modules
+from auth_models import UserCreate, UserLogin, User, Token
+from auth_utils import get_password_hash, authenticate_user, create_access_token, get_current_user_from_db
+
 # Configure logging - reduce verbosity
 logging.basicConfig(
     level=logging.WARNING,  # Changed from INFO to WARNING
@@ -35,7 +40,7 @@ uvicorn_logger.setLevel(logging.WARNING)
 
 # Environment variables
 # Load MongoDB settings strictly from env; default to safe localhost for dev
-MONGODB_URI = os.getenv("MONGODB_URI", "mongodb://localhost:27017")
+MONGODB_URI = os.getenv("MONGODB_URI")
 DB_NAME = os.getenv("DB_NAME", "UPS_DATA_MONITORING")
 COLLECTION = os.getenv("COLLECTION", "upsdata")
 
@@ -323,6 +328,96 @@ async def health_check():
         }
     except Exception as e:
         return {"status": "error", "db": False, "error": str(e)}
+
+# Authentication endpoints
+@app.post("/api/auth/signup", response_model=User)
+async def signup(user_data: UserCreate):
+    """User registration endpoint"""
+    try:
+        # Check if user already exists
+        user_collection = db["users"]
+        existing_user = user_collection.find_one({"email": user_data.email})
+        if existing_user:
+            raise HTTPException(
+                status_code=400,
+                detail="User with this email already exists"
+            )
+        
+        # Create new user
+        user_doc = {
+            "email": user_data.email,
+            "password": get_password_hash(user_data.password),
+            "first_name": user_data.first_name,
+            "last_name": user_data.last_name,
+            "created_at": datetime.utcnow(),
+            "updated_at": datetime.utcnow()
+        }
+        
+        result = user_collection.insert_one(user_doc)
+        user_doc["id"] = str(result.inserted_id)
+        del user_doc["_id"]
+        del user_doc["password"]  # Don't return password
+        
+        return user_doc
+        
+    except HTTPException:
+        raise
+    except Exception as e:
+        logger.error(f"Error during signup: {e}")
+        raise HTTPException(
+            status_code=500,
+            detail="Internal server error during signup"
+        )
+
+@app.post("/api/auth/signin", response_model=Token)
+async def signin(user_credentials: UserLogin):
+    """User authentication endpoint"""
+    try:
+        # Authenticate user
+        user = authenticate_user(db, user_credentials.email, user_credentials.password)
+        if not user:
+            raise HTTPException(
+                status_code=401,
+                detail="Incorrect email or password"
+            )
+        
+        # Create access token
+        access_token = create_access_token(
+            data={"sub": user["email"]}
+        )
+        
+        return {"access_token": access_token, "token_type": "bearer"}
+        
+    except HTTPException:
+        raise
+    except Exception as e:
+        logger.error(f"Error during signin: {e}")
+        raise HTTPException(
+            status_code=500,
+            detail="Internal server error during signin"
+        )
+
+# Dependency function for getting current user
+async def get_current_user(credentials: HTTPAuthorizationCredentials = Depends(HTTPBearer())):
+    """Dependency to get current authenticated user"""
+    return get_current_user_from_db(credentials, db)
+
+@app.get("/api/auth/me", response_model=User)
+async def get_current_user_info(current_user: dict = Depends(get_current_user)):
+    """Get current user information"""
+    try:
+        # Remove password from user data
+        user_data = current_user.copy()
+        if "password" in user_data:
+            del user_data["password"]
+        return user_data
+        
+    except Exception as e:
+        logger.error(f"Error getting user info: {e}")
+        raise HTTPException(
+            status_code=500,
+            detail="Internal server error getting user info"
+        )
 
 @app.get("/api/test-data")
 async def test_data():

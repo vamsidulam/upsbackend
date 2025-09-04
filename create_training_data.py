@@ -14,7 +14,7 @@ def create_training_data():
     import os
     from dotenv import load_dotenv
     load_dotenv()
-    client = MongoClient(os.getenv("MONGODB_URI", "mongodb://localhost:27017"))
+    client = MongoClient(os.getenv("MONGODB_URI"))
     db = client["UPS_DATA_MONITORING"]
     collection = db["upsdata"]
     

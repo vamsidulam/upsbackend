@@ -30,7 +30,7 @@ class UPSMonitorService:
         import os
         from dotenv import load_dotenv
         load_dotenv()
-        self.mongo_uri = os.getenv("MONGODB_URI", "mongodb://localhost:27017")
+        self.mongo_uri = os.getenv("MONGODB_URI")
         self.db_name = "UPS_DATA_MONITORING"
         self.collection_name = "upsdata"
         self.history_collection_name = "ups_history"

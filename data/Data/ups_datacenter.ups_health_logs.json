@@ -1,0 +1,2200 @@
+[{
+  "_id": {
+    "$oid": "68a6c543a3f47ec88ea0c572"
+  },
+  "log_id": "LOG00001",
+  "ups_id": "UPS001",
+  "timestamp": {
+    "$date": "2025-08-21T12:35:39.495Z"
+  },
+  "status": "OK",
+  "remarks": "All systems nominal.",
+  "battery_ah": 137.56,
+  "battery_voltage": 47.36,
+  "battery_current": -2.82,
+  "battery_temp_c": 31.45,
+  "health_percent": 87,
+  "room_temperature_c": 24.19,
+  "humidity_percent": 56.77,
+  "inverter_efficiency_percent": 97.28,
+  "inverter_temp_c": 36.73,
+  "load_percentage": 39.56
+},
+{
+  "_id": {
+    "$oid": "68a6c543a3f47ec88ea0c574"
+  },
+  "log_id": "LOG00002",
+  "ups_id": "UPS002",
+  "timestamp": {
+    "$date": "2025-08-21T12:35:39.663Z"
+  },
+  "status": "OK",
+  "remarks": "All systems nominal.",
+  "battery_ah": 142.12,
+  "battery_voltage": 48.54,
+  "battery_current": 14.31,
+  "battery_temp_c": 32.42,
+  "health_percent": 87,
+  "room_temperature_c": 23.77,
+  "humidity_percent": 41.28,
+  "inverter_efficiency_percent": 97.33,
+  "inverter_temp_c": 38.04,
+  "load_percentage": 47.9
+},
+{
+  "_id": {
+    "$oid": "68a6c543a3f47ec88ea0c576"
+  },
+  "log_id": "LOG00003",
+  "ups_id": "UPS003",
+  "timestamp": {
+    "$date": "2025-08-21T12:35:39.815Z"
+  },
+  "status": "OK",
+  "remarks": "All systems nominal.",
+  "battery_ah": 144.45,
+  "battery_voltage": 51.8,
+  "battery_current": 0.95,
+  "battery_temp_c": 39.36,
+  "health_percent": 94,
+  "room_temperature_c": 23.93,
+  "humidity_percent": 46.21,
+  "inverter_efficiency_percent": 96.66,
+  "inverter_temp_c": 45.09,
+  "load_percentage": 60.57
+},
+{
+  "_id": {
+    "$oid": "68a6c543a3f47ec88ea0c578"
+  },
+  "log_id": "LOG00004",
+  "ups_id": "UPS004",
+  "timestamp": {
+    "$date": "2025-08-21T12:35:39.968Z"
+  },
+  "status": "OK",
+  "remarks": "All systems nominal.",
+  "battery_ah": 114.57,
+  "battery_voltage": 50.34,
+  "battery_current": 13.82,
+  "battery_temp_c": 38.43,
+  "health_percent": 97,
+  "room_temperature_c": 27.11,
+  "humidity_percent": 54.31,
+  "inverter_efficiency_percent": 96.19,
+  "inverter_temp_c": 47.5,
+  "load_percentage": 31.81
+},
+{
+  "_id": {
+    "$oid": "68a6c544a3f47ec88ea0c57a"
+  },
+  "log_id": "LOG00005",
+  "ups_id": "UPS005",
+  "timestamp": {
+    "$date": "2025-08-21T12:35:40.120Z"
+  },
+  "status": "OK",
+  "remarks": "All systems nominal.",
+  "battery_ah": 138.79,
+  "battery_voltage": 51.41,
+  "battery_current": 12.81,
+  "battery_temp_c": 37.92,
+  "health_percent": 86,
+  "room_temperature_c": 26.43,
+  "humidity_percent": 46.84,
+  "inverter_efficiency_percent": 96.75,
+  "inverter_temp_c": 35.33,
+  "load_percentage": 34.68
+},
+{
+  "_id": {
+    "$oid": "68a6c544a3f47ec88ea0c57c"
+  },
+  "log_id": "LOG00006",
+  "ups_id": "UPS006",
+  "timestamp": {
+    "$date": "2025-08-21T12:35:40.269Z"
+  },
+  "status": "OK",
+  "remarks": "All systems nominal.",
+  "battery_ah": 141.65,
+  "battery_voltage": 50.36,
+  "battery_current": 5.08,
+  "battery_temp_c": 39.74,
+  "health_percent": 99,
+  "room_temperature_c": 25.68,
+  "humidity_percent": 50.66,
+  "inverter_efficiency_percent": 96.43,
+  "inverter_temp_c": 35.93,
+  "load_percentage": 41.61
+},
+{
+  "_id": {
+    "$oid": "68a6c544a3f47ec88ea0c57e"
+  },
+  "log_id": "LOG00007",
+  "ups_id": "UPS007",
+  "timestamp": {
+    "$date": "2025-08-21T12:35:40.424Z"
+  },
+  "status": "OK",
+  "remarks": "All systems nominal.",
+  "battery_ah": 128.93,
+  "battery_voltage": 51.81,
+  "battery_current": 7.06,
+  "battery_temp_c": 38.95,
+  "health_percent": 94,
+  "room_temperature_c": 23.88,
+  "humidity_percent": 45.56,
+  "inverter_efficiency_percent": 97.92,
+  "inverter_temp_c": 44.35,
+  "load_percentage": 59.24
+},
+{
+  "_id": {
+    "$oid": "68a6c544a3f47ec88ea0c580"
+  },
+  "log_id": "LOG00008",
+  "ups_id": "UPS008",
+  "timestamp": {
+    "$date": "2025-08-21T12:35:40.577Z"
+  },
+  "status": "OK",
+  "remarks": "All systems nominal.",
+  "battery_ah": 132.11,
+  "battery_voltage": 51.99,
+  "battery_current": 7.46,
+  "battery_temp_c": 37.2,
+  "health_percent": 95,
+  "room_temperature_c": 21.87,
+  "humidity_percent": 56.11,
+  "inverter_efficiency_percent": 97.14,
+  "inverter_temp_c": 46.45,
+  "load_percentage": 39.78
+},
+{
+  "_id": {
+    "$oid": "68a6c544a3f47ec88ea0c582"
+  },
+  "log_id": "LOG00009",
+  "ups_id": "UPS009",
+  "timestamp": {
+    "$date": "2025-08-21T12:35:40.727Z"
+  },
+  "status": "Failure",
+  "remarks": "System alert detected.",
+  "battery_ah": 123.36,
+  "battery_voltage": 39.84,
+  "battery_current": 10.98,
+  "battery_temp_c": 46.51,
+  "health_percent": 61,
+  "room_temperature_c": 24.02,
+  "humidity_percent": 54.12,
+  "inverter_efficiency_percent": 88.87,
+  "inverter_temp_c": 62.55,
+  "load_percentage": 67.13
+},
+{
+  "_id": {
+    "$oid": "68a6c544a3f47ec88ea0c584"
+  },
+  "log_id": "LOG00010",
+  "ups_id": "UPS010",
+  "timestamp": {
+    "$date": "2025-08-21T12:35:40.883Z"
+  },
+  "status": "OK",
+  "remarks": "All systems nominal.",
+  "battery_ah": 142.49,
+  "battery_voltage": 47.27,
+  "battery_current": 5.07,
+  "battery_temp_c": 29.9,
+  "health_percent": 90,
+  "room_temperature_c": 26.5,
+  "humidity_percent": 55.86,
+  "inverter_efficiency_percent": 96.43,
+  "inverter_temp_c": 35.68,
+  "load_percentage": 33.86
+},
+{
+  "_id": {
+    "$oid": "68a6c545a3f47ec88ea0c586"
+  },
+  "log_id": "LOG00011",
+  "ups_id": "UPS011",
+  "timestamp": {
+    "$date": "2025-08-21T12:35:41.031Z"
+  },
+  "status": "OK",
+  "remarks": "All systems nominal.",
+  "battery_ah": 123.96,
+  "battery_voltage": 51.03,
+  "battery_current": 6.12,
+  "battery_temp_c": 35.94,
+  "health_percent": 99,
+  "room_temperature_c": 24.29,
+  "humidity_percent": 57.43,
+  "inverter_efficiency_percent": 97,
+  "inverter_temp_c": 43.3,
+  "load_percentage": 59.82
+},
+{
+  "_id": {
+    "$oid": "68a6c545a3f47ec88ea0c588"
+  },
+  "log_id": "LOG00012",
+  "ups_id": "UPS012",
+  "timestamp": {
+    "$date": "2025-08-21T12:35:41.184Z"
+  },
+  "status": "OK",
+  "remarks": "All systems nominal.",
+  "battery_ah": 125.74,
+  "battery_voltage": 51.99,
+  "battery_current": -2.16,
+  "battery_temp_c": 36.67,
+  "health_percent": 98,
+  "room_temperature_c": 22.8,
+  "humidity_percent": 57.95,
+  "inverter_efficiency_percent": 98.08,
+  "inverter_temp_c": 42.21,
+  "load_percentage": 67.28
+},
+{
+  "_id": {
+    "$oid": "68a6c545a3f47ec88ea0c58a"
+  },
+  "log_id": "LOG00013",
+  "ups_id": "UPS013",
+  "timestamp": {
+    "$date": "2025-08-21T12:35:41.334Z"
+  },
+  "status": "Failure",
+  "remarks": "System alert detected.",
+  "battery_ah": 104.88,
+  "battery_voltage": 42.96,
+  "battery_current": 10.83,
+  "battery_temp_c": 50.84,
+  "health_percent": 58,
+  "room_temperature_c": 24.35,
+  "humidity_percent": 46.06,
+  "inverter_efficiency_percent": 90.85,
+  "inverter_temp_c": 67.97,
+  "load_percentage": 81.76
+},
+{
+  "_id": {
+    "$oid": "68a6c545a3f47ec88ea0c58c"
+  },
+  "log_id": "LOG00014",
+  "ups_id": "UPS014",
+  "timestamp": {
+    "$date": "2025-08-21T12:35:41.484Z"
+  },
+  "status": "OK",
+  "remarks": "All systems nominal.",
+  "battery_ah": 96.34,
+  "battery_voltage": 46.84,
+  "battery_current": 3.57,
+  "battery_temp_c": 37.05,
+  "health_percent": 100,
+  "room_temperature_c": 21.15,
+  "humidity_percent": 48.44,
+  "inverter_efficiency_percent": 97.18,
+  "inverter_temp_c": 45.05,
+  "load_percentage": 51.51
+},
+{
+  "_id": {
+    "$oid": "68a6c545a3f47ec88ea0c58e"
+  },
+  "log_id": "LOG00015",
+  "ups_id": "UPS015",
+  "timestamp": {
+    "$date": "2025-08-21T12:35:41.636Z"
+  },
+  "status": "OK",
+  "remarks": "All systems nominal.",
+  "battery_ah": 123.97,
+  "battery_voltage": 48.68,
+  "battery_current": -0.16,
+  "battery_temp_c": 29.69,
+  "health_percent": 90,
+  "room_temperature_c": 21.26,
+  "humidity_percent": 53.4,
+  "inverter_efficiency_percent": 98.36,
+  "inverter_temp_c": 45.55,
+  "load_percentage": 57.93
+},
+{
+  "_id": {
+    "$oid": "68a6c545a3f47ec88ea0c590"
+  },
+  "log_id": "LOG00016",
+  "ups_id": "UPS016",
+  "timestamp": {
+    "$date": "2025-08-21T12:35:41.787Z"
+  },
+  "status": "OK",
+  "remarks": "All systems nominal.",
+  "battery_ah": 106.99,
+  "battery_voltage": 51.62,
+  "battery_current": -4.17,
+  "battery_temp_c": 30.21,
+  "health_percent": 92,
+  "room_temperature_c": 21.75,
+  "humidity_percent": 41.15,
+  "inverter_efficiency_percent": 96.58,
+  "inverter_temp_c": 35.37,
+  "load_percentage": 56.04
+},
+{
+  "_id": {
+    "$oid": "68a6c545a3f47ec88ea0c592"
+  },
+  "log_id": "LOG00017",
+  "ups_id": "UPS017",
+  "timestamp": {
+    "$date": "2025-08-21T12:35:41.941Z"
+  },
+  "status": "OK",
+  "remarks": "All systems nominal.",
+  "battery_ah": 142.58,
+  "battery_voltage": 46.53,
+  "battery_current": 9.36,
+  "battery_temp_c": 29.14,
+  "health_percent": 95,
+  "room_temperature_c": 25.45,
+  "humidity_percent": 58.18,
+  "inverter_efficiency_percent": 96.97,
+  "inverter_temp_c": 43.51,
+  "load_percentage": 39.28
+},
+{
+  "_id": {
+    "$oid": "68a6c546a3f47ec88ea0c594"
+  },
+  "log_id": "LOG00018",
+  "ups_id": "UPS018",
+  "timestamp": {
+    "$date": "2025-08-21T12:35:42.094Z"
+  },
+  "status": "OK",
+  "remarks": "All systems nominal.",
+  "battery_ah": 136.71,
+  "battery_voltage": 51.04,
+  "battery_current": 6.61,
+  "battery_temp_c": 30.98,
+  "health_percent": 96,
+  "room_temperature_c": 24.18,
+  "humidity_percent": 46.9,
+  "inverter_efficiency_percent": 96.62,
+  "inverter_temp_c": 49.53,
+  "load_percentage": 66.58
+},
+{
+  "_id": {
+    "$oid": "68a6c546a3f47ec88ea0c596"
+  },
+  "log_id": "LOG00019",
+  "ups_id": "UPS019",
+  "timestamp": {
+    "$date": "2025-08-21T12:35:42.246Z"
+  },
+  "status": "OK",
+  "remarks": "All systems nominal.",
+  "battery_ah": 121.37,
+  "battery_voltage": 48.13,
+  "battery_current": 6.26,
+  "battery_temp_c": 35.58,
+  "health_percent": 99,
+  "room_temperature_c": 23.3,
+  "humidity_percent": 54.17,
+  "inverter_efficiency_percent": 97.92,
+  "inverter_temp_c": 38.5,
+  "load_percentage": 49.45
+},
+{
+  "_id": {
+    "$oid": "68a6c546a3f47ec88ea0c598"
+  },
+  "log_id": "LOG00020",
+  "ups_id": "UPS020",
+  "timestamp": {
+    "$date": "2025-08-21T12:35:42.399Z"
+  },
+  "status": "OK",
+  "remarks": "All systems nominal.",
+  "battery_ah": 129.97,
+  "battery_voltage": 48.99,
+  "battery_current": 2.47,
+  "battery_temp_c": 37.43,
+  "health_percent": 85,
+  "room_temperature_c": 26.07,
+  "humidity_percent": 42.66,
+  "inverter_efficiency_percent": 97.43,
+  "inverter_temp_c": 39.38,
+  "load_percentage": 53.93
+},
+{
+  "_id": {
+    "$oid": "68a6c56b32585d065e48856a"
+  },
+  "log_id": "LOG00001",
+  "ups_id": "UPS001",
+  "timestamp": {
+    "$date": "2025-08-21T12:36:19.949Z"
+  },
+  "status": "OK",
+  "remarks": "All systems nominal.",
+  "battery_ah": 126.49,
+  "battery_voltage": 46.29,
+  "battery_current": 6.73,
+  "battery_temp_c": 34.2,
+  "health_percent": 97,
+  "room_temperature_c": 24.78,
+  "humidity_percent": 56.69,
+  "inverter_efficiency_percent": 97.9,
+  "inverter_temp_c": 49.01,
+  "load_percentage": 62.7
+},
+{
+  "_id": {
+    "$oid": "68a6c56c32585d065e48856c"
+  },
+  "log_id": "LOG00002",
+  "ups_id": "UPS002",
+  "timestamp": {
+    "$date": "2025-08-21T12:36:20.102Z"
+  },
+  "status": "OK",
+  "remarks": "All systems nominal.",
+  "battery_ah": 127.99,
+  "battery_voltage": 47.36,
+  "battery_current": 4.87,
+  "battery_temp_c": 35.2,
+  "health_percent": 94,
+  "room_temperature_c": 24.55,
+  "humidity_percent": 44.47,
+  "inverter_efficiency_percent": 98.49,
+  "inverter_temp_c": 47.35,
+  "load_percentage": 42.08
+},
+{
+  "_id": {
+    "$oid": "68a6c56c32585d065e48856e"
+  },
+  "log_id": "LOG00003",
+  "ups_id": "UPS003",
+  "timestamp": {
+    "$date": "2025-08-21T12:36:20.256Z"
+  },
+  "status": "OK",
+  "remarks": "All systems nominal.",
+  "battery_ah": 117.36,
+  "battery_voltage": 47.33,
+  "battery_current": 14.56,
+  "battery_temp_c": 37.45,
+  "health_percent": 91,
+  "room_temperature_c": 24.49,
+  "humidity_percent": 47.23,
+  "inverter_efficiency_percent": 97.81,
+  "inverter_temp_c": 39.48,
+  "load_percentage": 36.13
+},
+{
+  "_id": {
+    "$oid": "68a6c56c32585d065e488570"
+  },
+  "log_id": "LOG00004",
+  "ups_id": "UPS004",
+  "timestamp": {
+    "$date": "2025-08-21T12:36:20.411Z"
+  },
+  "status": "OK",
+  "remarks": "All systems nominal.",
+  "battery_ah": 137.13,
+  "battery_voltage": 50.9,
+  "battery_current": 13.33,
+  "battery_temp_c": 35.61,
+  "health_percent": 92,
+  "room_temperature_c": 24.64,
+  "humidity_percent": 54.35,
+  "inverter_efficiency_percent": 97.42,
+  "inverter_temp_c": 45.66,
+  "load_percentage": 41.11
+},
+{
+  "_id": {
+    "$oid": "68a6c56c32585d065e488572"
+  },
+  "log_id": "LOG00005",
+  "ups_id": "UPS005",
+  "timestamp": {
+    "$date": "2025-08-21T12:36:20.563Z"
+  },
+  "status": "OK",
+  "remarks": "All systems nominal.",
+  "battery_ah": 148.13,
+  "battery_voltage": 46.33,
+  "battery_current": -4.09,
+  "battery_temp_c": 32.24,
+  "health_percent": 94,
+  "room_temperature_c": 21.92,
+  "humidity_percent": 48.41,
+  "inverter_efficiency_percent": 96.72,
+  "inverter_temp_c": 47.89,
+  "load_percentage": 57.85
+},
+{
+  "_id": {
+    "$oid": "68a6c56c32585d065e488574"
+  },
+  "log_id": "LOG00006",
+  "ups_id": "UPS006",
+  "timestamp": {
+    "$date": "2025-08-21T12:36:20.713Z"
+  },
+  "status": "OK",
+  "remarks": "All systems nominal.",
+  "battery_ah": 120.23,
+  "battery_voltage": 48.97,
+  "battery_current": -1.86,
+  "battery_temp_c": 28.79,
+  "health_percent": 86,
+  "room_temperature_c": 27.12,
+  "humidity_percent": 49.98,
+  "inverter_efficiency_percent": 96.6,
+  "inverter_temp_c": 40.66,
+  "load_percentage": 58.68
+},
+{
+  "_id": {
+    "$oid": "68a6c56c32585d065e488576"
+  },
+  "log_id": "LOG00007",
+  "ups_id": "UPS007",
+  "timestamp": {
+    "$date": "2025-08-21T12:36:20.866Z"
+  },
+  "status": "OK",
+  "remarks": "All systems nominal.",
+  "battery_ah": 114.99,
+  "battery_voltage": 48.96,
+  "battery_current": 6.71,
+  "battery_temp_c": 36.71,
+  "health_percent": 100,
+  "room_temperature_c": 20.96,
+  "humidity_percent": 57.17,
+  "inverter_efficiency_percent": 98.17,
+  "inverter_temp_c": 39.58,
+  "load_percentage": 30.81
+},
+{
+  "_id": {
+    "$oid": "68a6c56d32585d065e488578"
+  },
+  "log_id": "LOG00008",
+  "ups_id": "UPS008",
+  "timestamp": {
+    "$date": "2025-08-21T12:36:21.018Z"
+  },
+  "status": "OK",
+  "remarks": "All systems nominal.",
+  "battery_ah": 109.26,
+  "battery_voltage": 50.32,
+  "battery_current": 11.03,
+  "battery_temp_c": 38.05,
+  "health_percent": 93,
+  "room_temperature_c": 27.33,
+  "humidity_percent": 55.42,
+  "inverter_efficiency_percent": 97.8,
+  "inverter_temp_c": 48.33,
+  "load_percentage": 41.94
+},
+{
+  "_id": {
+    "$oid": "68a6c56d32585d065e48857a"
+  },
+  "log_id": "LOG00009",
+  "ups_id": "UPS009",
+  "timestamp": {
+    "$date": "2025-08-21T12:36:21.167Z"
+  },
+  "status": "OK",
+  "remarks": "All systems nominal.",
+  "battery_ah": 97.13,
+  "battery_voltage": 50.4,
+  "battery_current": 0.42,
+  "battery_temp_c": 31.36,
+  "health_percent": 93,
+  "room_temperature_c": 25.32,
+  "humidity_percent": 52.18,
+  "inverter_efficiency_percent": 97.13,
+  "inverter_temp_c": 39.9,
+  "load_percentage": 51.29
+},
+{
+  "_id": {
+    "$oid": "68a6c56d32585d065e48857c"
+  },
+  "log_id": "LOG00010",
+  "ups_id": "UPS010",
+  "timestamp": {
+    "$date": "2025-08-21T12:36:21.318Z"
+  },
+  "status": "OK",
+  "remarks": "All systems nominal.",
+  "battery_ah": 126.41,
+  "battery_voltage": 47.33,
+  "battery_current": 1.87,
+  "battery_temp_c": 36.7,
+  "health_percent": 98,
+  "room_temperature_c": 20.98,
+  "humidity_percent": 54.66,
+  "inverter_efficiency_percent": 97.6,
+  "inverter_temp_c": 40,
+  "load_percentage": 46.15
+},
+{
+  "_id": {
+    "$oid": "68a6c56d32585d065e48857e"
+  },
+  "log_id": "LOG00011",
+  "ups_id": "UPS011",
+  "timestamp": {
+    "$date": "2025-08-21T12:36:21.470Z"
+  },
+  "status": "OK",
+  "remarks": "All systems nominal.",
+  "battery_ah": 135.63,
+  "battery_voltage": 48.93,
+  "battery_current": 4.79,
+  "battery_temp_c": 39.79,
+  "health_percent": 88,
+  "room_temperature_c": 22.72,
+  "humidity_percent": 54.39,
+  "inverter_efficiency_percent": 98.24,
+  "inverter_temp_c": 35.97,
+  "load_percentage": 64.83
+},
+{
+  "_id": {
+    "$oid": "68a6c56d32585d065e488580"
+  },
+  "log_id": "LOG00012",
+  "ups_id": "UPS012",
+  "timestamp": {
+    "$date": "2025-08-21T12:36:21.622Z"
+  },
+  "status": "OK",
+  "remarks": "All systems nominal.",
+  "battery_ah": 132.63,
+  "battery_voltage": 51.81,
+  "battery_current": 6.85,
+  "battery_temp_c": 39.19,
+  "health_percent": 100,
+  "room_temperature_c": 25.55,
+  "humidity_percent": 50.41,
+  "inverter_efficiency_percent": 97.39,
+  "inverter_temp_c": 35.52,
+  "load_percentage": 43.22
+},
+{
+  "_id": {
+    "$oid": "68a6c56d32585d065e488582"
+  },
+  "log_id": "LOG00013",
+  "ups_id": "UPS013",
+  "timestamp": {
+    "$date": "2025-08-21T12:36:21.775Z"
+  },
+  "status": "OK",
+  "remarks": "All systems nominal.",
+  "battery_ah": 116.31,
+  "battery_voltage": 50.45,
+  "battery_current": 2.71,
+  "battery_temp_c": 38.84,
+  "health_percent": 98,
+  "room_temperature_c": 25.54,
+  "humidity_percent": 42.48,
+  "inverter_efficiency_percent": 98.14,
+  "inverter_temp_c": 48.35,
+  "load_percentage": 56.82
+},
+{
+  "_id": {
+    "$oid": "68a6c56d32585d065e488584"
+  },
+  "log_id": "LOG00014",
+  "ups_id": "UPS014",
+  "timestamp": {
+    "$date": "2025-08-21T12:36:21.924Z"
+  },
+  "status": "OK",
+  "remarks": "All systems nominal.",
+  "battery_ah": 139.29,
+  "battery_voltage": 50.94,
+  "battery_current": 7.55,
+  "battery_temp_c": 30.87,
+  "health_percent": 85,
+  "room_temperature_c": 23,
+  "humidity_percent": 40.53,
+  "inverter_efficiency_percent": 98.17,
+  "inverter_temp_c": 45.98,
+  "load_percentage": 34.01
+},
+{
+  "_id": {
+    "$oid": "68a6c56e32585d065e488586"
+  },
+  "log_id": "LOG00015",
+  "ups_id": "UPS015",
+  "timestamp": {
+    "$date": "2025-08-21T12:36:22.079Z"
+  },
+  "status": "Failure",
+  "remarks": "System alert detected.",
+  "battery_ah": 138.32,
+  "battery_voltage": 38.82,
+  "battery_current": 2.19,
+  "battery_temp_c": 47.09,
+  "health_percent": 74,
+  "room_temperature_c": 23.76,
+  "humidity_percent": 56.51,
+  "inverter_efficiency_percent": 88.49,
+  "inverter_temp_c": 66.82,
+  "load_percentage": 74.27
+},
+{
+  "_id": {
+    "$oid": "68a6c56e32585d065e488588"
+  },
+  "log_id": "LOG00016",
+  "ups_id": "UPS016",
+  "timestamp": {
+    "$date": "2025-08-21T12:36:22.235Z"
+  },
+  "status": "OK",
+  "remarks": "All systems nominal.",
+  "battery_ah": 121.89,
+  "battery_voltage": 50.94,
+  "battery_current": 3.22,
+  "battery_temp_c": 37.54,
+  "health_percent": 96,
+  "room_temperature_c": 24.63,
+  "humidity_percent": 40.31,
+  "inverter_efficiency_percent": 97.86,
+  "inverter_temp_c": 36.53,
+  "load_percentage": 46.39
+},
+{
+  "_id": {
+    "$oid": "68a6c56e32585d065e48858a"
+  },
+  "log_id": "LOG00017",
+  "ups_id": "UPS017",
+  "timestamp": {
+    "$date": "2025-08-21T12:36:22.387Z"
+  },
+  "status": "OK",
+  "remarks": "All systems nominal.",
+  "battery_ah": 119.66,
+  "battery_voltage": 50.61,
+  "battery_current": 4.06,
+  "battery_temp_c": 31.54,
+  "health_percent": 99,
+  "room_temperature_c": 24.98,
+  "humidity_percent": 56.17,
+  "inverter_efficiency_percent": 97.4,
+  "inverter_temp_c": 36,
+  "load_percentage": 47.48
+},
+{
+  "_id": {
+    "$oid": "68a6c56e32585d065e48858c"
+  },
+  "log_id": "LOG00018",
+  "ups_id": "UPS018",
+  "timestamp": {
+    "$date": "2025-08-21T12:36:22.538Z"
+  },
+  "status": "OK",
+  "remarks": "All systems nominal.",
+  "battery_ah": 118.6,
+  "battery_voltage": 46.65,
+  "battery_current": 7.37,
+  "battery_temp_c": 29.86,
+  "health_percent": 85,
+  "room_temperature_c": 25.47,
+  "humidity_percent": 55.42,
+  "inverter_efficiency_percent": 96.66,
+  "inverter_temp_c": 37.17,
+  "load_percentage": 38.3
+},
+{
+  "_id": {
+    "$oid": "68a6c56e32585d065e48858e"
+  },
+  "log_id": "LOG00019",
+  "ups_id": "UPS019",
+  "timestamp": {
+    "$date": "2025-08-21T12:36:22.687Z"
+  },
+  "status": "OK",
+  "remarks": "All systems nominal.",
+  "battery_ah": 100.74,
+  "battery_voltage": 49.83,
+  "battery_current": 3.38,
+  "battery_temp_c": 31.02,
+  "health_percent": 88,
+  "room_temperature_c": 21.8,
+  "humidity_percent": 57.58,
+  "inverter_efficiency_percent": 98.21,
+  "inverter_temp_c": 48.45,
+  "load_percentage": 37.62
+},
+{
+  "_id": {
+    "$oid": "68a6c56e32585d065e488590"
+  },
+  "log_id": "LOG00020",
+  "ups_id": "UPS020",
+  "timestamp": {
+    "$date": "2025-08-21T12:36:22.848Z"
+  },
+  "status": "OK",
+  "remarks": "All systems nominal.",
+  "battery_ah": 113.47,
+  "battery_voltage": 47.79,
+  "battery_current": 12.18,
+  "battery_temp_c": 34.11,
+  "health_percent": 90,
+  "room_temperature_c": 20.46,
+  "humidity_percent": 41.75,
+  "inverter_efficiency_percent": 97.94,
+  "inverter_temp_c": 45.49,
+  "load_percentage": 35.52
+},
+{
+  "_id": {
+    "$oid": "68a6c5775d33b520c0f7b8f1"
+  },
+  "log_id": "LOG00001",
+  "ups_id": "UPS001",
+  "timestamp": {
+    "$date": "2025-08-21T12:36:31.052Z"
+  },
+  "status": "OK",
+  "remarks": "All systems nominal.",
+  "battery_ah": 144.22,
+  "battery_voltage": 50.93,
+  "battery_current": 14.69,
+  "battery_temp_c": 30.06,
+  "health_percent": 93,
+  "room_temperature_c": 27.53,
+  "humidity_percent": 41.09,
+  "inverter_efficiency_percent": 97.45,
+  "inverter_temp_c": 36.29,
+  "load_percentage": 57.64
+},
+{
+  "_id": {
+    "$oid": "68a6c5775d33b520c0f7b8f3"
+  },
+  "log_id": "LOG00002",
+  "ups_id": "UPS002",
+  "timestamp": {
+    "$date": "2025-08-21T12:36:31.208Z"
+  },
+  "status": "OK",
+  "remarks": "All systems nominal.",
+  "battery_ah": 139.82,
+  "battery_voltage": 47.96,
+  "battery_current": 6.22,
+  "battery_temp_c": 31.96,
+  "health_percent": 96,
+  "room_temperature_c": 24.83,
+  "humidity_percent": 56.09,
+  "inverter_efficiency_percent": 97.39,
+  "inverter_temp_c": 46.96,
+  "load_percentage": 41.73
+},
+{
+  "_id": {
+    "$oid": "68a6c5775d33b520c0f7b8f5"
+  },
+  "log_id": "LOG00003",
+  "ups_id": "UPS003",
+  "timestamp": {
+    "$date": "2025-08-21T12:36:31.364Z"
+  },
+  "status": "OK",
+  "remarks": "All systems nominal.",
+  "battery_ah": 103.32,
+  "battery_voltage": 46.66,
+  "battery_current": 0.62,
+  "battery_temp_c": 28.19,
+  "health_percent": 89,
+  "room_temperature_c": 24.9,
+  "humidity_percent": 42.95,
+  "inverter_efficiency_percent": 98.04,
+  "inverter_temp_c": 35.04,
+  "load_percentage": 58.7
+},
+{
+  "_id": {
+    "$oid": "68a6c5775d33b520c0f7b8f7"
+  },
+  "log_id": "LOG00004",
+  "ups_id": "UPS004",
+  "timestamp": {
+    "$date": "2025-08-21T12:36:31.517Z"
+  },
+  "status": "OK",
+  "remarks": "All systems nominal.",
+  "battery_ah": 140.52,
+  "battery_voltage": 50.72,
+  "battery_current": 13.08,
+  "battery_temp_c": 37.63,
+  "health_percent": 97,
+  "room_temperature_c": 22.7,
+  "humidity_percent": 47.21,
+  "inverter_efficiency_percent": 96.48,
+  "inverter_temp_c": 36.58,
+  "load_percentage": 49.18
+},
+{
+  "_id": {
+    "$oid": "68a6c5775d33b520c0f7b8f9"
+  },
+  "log_id": "LOG00005",
+  "ups_id": "UPS005",
+  "timestamp": {
+    "$date": "2025-08-21T12:36:31.678Z"
+  },
+  "status": "Failure",
+  "remarks": "System alert detected.",
+  "battery_ah": 97.51,
+  "battery_voltage": 39.5,
+  "battery_current": 7.24,
+  "battery_temp_c": 38.71,
+  "health_percent": 71,
+  "room_temperature_c": 24.08,
+  "humidity_percent": 44.58,
+  "inverter_efficiency_percent": 87.54,
+  "inverter_temp_c": 52.78,
+  "load_percentage": 89.81
+},
+{
+  "_id": {
+    "$oid": "68a6c5775d33b520c0f7b8fb"
+  },
+  "log_id": "LOG00006",
+  "ups_id": "UPS006",
+  "timestamp": {
+    "$date": "2025-08-21T12:36:31.856Z"
+  },
+  "status": "OK",
+  "remarks": "All systems nominal.",
+  "battery_ah": 132.28,
+  "battery_voltage": 50.07,
+  "battery_current": -1.32,
+  "battery_temp_c": 32.52,
+  "health_percent": 94,
+  "room_temperature_c": 25.12,
+  "humidity_percent": 56.32,
+  "inverter_efficiency_percent": 98.36,
+  "inverter_temp_c": 47.42,
+  "load_percentage": 62.34
+},
+{
+  "_id": {
+    "$oid": "68a6c5785d33b520c0f7b8fd"
+  },
+  "log_id": "LOG00007",
+  "ups_id": "UPS007",
+  "timestamp": {
+    "$date": "2025-08-21T12:36:32.034Z"
+  },
+  "status": "OK",
+  "remarks": "All systems nominal.",
+  "battery_ah": 137.39,
+  "battery_voltage": 49.84,
+  "battery_current": -3.78,
+  "battery_temp_c": 32.31,
+  "health_percent": 97,
+  "room_temperature_c": 24.82,
+  "humidity_percent": 56.1,
+  "inverter_efficiency_percent": 97.76,
+  "inverter_temp_c": 44.8,
+  "load_percentage": 43.86
+},
+{
+  "_id": {
+    "$oid": "68a6c5785d33b520c0f7b8ff"
+  },
+  "log_id": "LOG00008",
+  "ups_id": "UPS008",
+  "timestamp": {
+    "$date": "2025-08-21T12:36:32.203Z"
+  },
+  "status": "OK",
+  "remarks": "All systems nominal.",
+  "battery_ah": 100.41,
+  "battery_voltage": 51.39,
+  "battery_current": 13.92,
+  "battery_temp_c": 32.66,
+  "health_percent": 98,
+  "room_temperature_c": 27.99,
+  "humidity_percent": 56.26,
+  "inverter_efficiency_percent": 97.58,
+  "inverter_temp_c": 39.68,
+  "load_percentage": 55.89
+},
+{
+  "_id": {
+    "$oid": "68a6c5785d33b520c0f7b901"
+  },
+  "log_id": "LOG00009",
+  "ups_id": "UPS009",
+  "timestamp": {
+    "$date": "2025-08-21T12:36:32.357Z"
+  },
+  "status": "OK",
+  "remarks": "All systems nominal.",
+  "battery_ah": 93.29,
+  "battery_voltage": 47.17,
+  "battery_current": -2.67,
+  "battery_temp_c": 35.3,
+  "health_percent": 86,
+  "room_temperature_c": 24.37,
+  "humidity_percent": 41.8,
+  "inverter_efficiency_percent": 98.41,
+  "inverter_temp_c": 39.78,
+  "load_percentage": 51.92
+},
+{
+  "_id": {
+    "$oid": "68a6c5785d33b520c0f7b903"
+  },
+  "log_id": "LOG00010",
+  "ups_id": "UPS010",
+  "timestamp": {
+    "$date": "2025-08-21T12:36:32.519Z"
+  },
+  "status": "OK",
+  "remarks": "All systems nominal.",
+  "battery_ah": 141.86,
+  "battery_voltage": 49.76,
+  "battery_current": 3.66,
+  "battery_temp_c": 28.09,
+  "health_percent": 94,
+  "room_temperature_c": 25.07,
+  "humidity_percent": 57.39,
+  "inverter_efficiency_percent": 97.84,
+  "inverter_temp_c": 47.17,
+  "load_percentage": 53.93
+},
+{
+  "_id": {
+    "$oid": "68a6c5785d33b520c0f7b905"
+  },
+  "log_id": "LOG00011",
+  "ups_id": "UPS011",
+  "timestamp": {
+    "$date": "2025-08-21T12:36:32.672Z"
+  },
+  "status": "OK",
+  "remarks": "All systems nominal.",
+  "battery_ah": 125.52,
+  "battery_voltage": 48.88,
+  "battery_current": 11.85,
+  "battery_temp_c": 38.98,
+  "health_percent": 87,
+  "room_temperature_c": 26.47,
+  "humidity_percent": 46.41,
+  "inverter_efficiency_percent": 98.49,
+  "inverter_temp_c": 45.47,
+  "load_percentage": 57.8
+},
+{
+  "_id": {
+    "$oid": "68a6c5785d33b520c0f7b907"
+  },
+  "log_id": "LOG00012",
+  "ups_id": "UPS012",
+  "timestamp": {
+    "$date": "2025-08-21T12:36:32.822Z"
+  },
+  "status": "OK",
+  "remarks": "All systems nominal.",
+  "battery_ah": 125.1,
+  "battery_voltage": 47.34,
+  "battery_current": 13.64,
+  "battery_temp_c": 33.92,
+  "health_percent": 94,
+  "room_temperature_c": 22.72,
+  "humidity_percent": 42.94,
+  "inverter_efficiency_percent": 96.33,
+  "inverter_temp_c": 41.16,
+  "load_percentage": 44.81
+},
+{
+  "_id": {
+    "$oid": "68a6c5785d33b520c0f7b909"
+  },
+  "log_id": "LOG00013",
+  "ups_id": "UPS013",
+  "timestamp": {
+    "$date": "2025-08-21T12:36:32.974Z"
+  },
+  "status": "OK",
+  "remarks": "All systems nominal.",
+  "battery_ah": 129.93,
+  "battery_voltage": 50.63,
+  "battery_current": 9.53,
+  "battery_temp_c": 34.41,
+  "health_percent": 87,
+  "room_temperature_c": 21.39,
+  "humidity_percent": 57.87,
+  "inverter_efficiency_percent": 97.08,
+  "inverter_temp_c": 46.06,
+  "load_percentage": 34.86
+},
+{
+  "_id": {
+    "$oid": "68a6c5795d33b520c0f7b90b"
+  },
+  "log_id": "LOG00014",
+  "ups_id": "UPS014",
+  "timestamp": {
+    "$date": "2025-08-21T12:36:33.125Z"
+  },
+  "status": "OK",
+  "remarks": "All systems nominal.",
+  "battery_ah": 118.27,
+  "battery_voltage": 50.24,
+  "battery_current": 4.92,
+  "battery_temp_c": 34.91,
+  "health_percent": 90,
+  "room_temperature_c": 27.86,
+  "humidity_percent": 43.97,
+  "inverter_efficiency_percent": 96.29,
+  "inverter_temp_c": 36.5,
+  "load_percentage": 53.42
+},
+{
+  "_id": {
+    "$oid": "68a6c5795d33b520c0f7b90d"
+  },
+  "log_id": "LOG00015",
+  "ups_id": "UPS015",
+  "timestamp": {
+    "$date": "2025-08-21T12:36:33.278Z"
+  },
+  "status": "OK",
+  "remarks": "All systems nominal.",
+  "battery_ah": 109.8,
+  "battery_voltage": 47.85,
+  "battery_current": 7.23,
+  "battery_temp_c": 35.83,
+  "health_percent": 100,
+  "room_temperature_c": 22.47,
+  "humidity_percent": 45.12,
+  "inverter_efficiency_percent": 96.85,
+  "inverter_temp_c": 39.96,
+  "load_percentage": 45.56
+},
+{
+  "_id": {
+    "$oid": "68a6c5795d33b520c0f7b90f"
+  },
+  "log_id": "LOG00016",
+  "ups_id": "UPS016",
+  "timestamp": {
+    "$date": "2025-08-21T12:36:33.432Z"
+  },
+  "status": "OK",
+  "remarks": "All systems nominal.",
+  "battery_ah": 115.6,
+  "battery_voltage": 46.97,
+  "battery_current": 10.77,
+  "battery_temp_c": 33.91,
+  "health_percent": 94,
+  "room_temperature_c": 23.26,
+  "humidity_percent": 53.92,
+  "inverter_efficiency_percent": 96.28,
+  "inverter_temp_c": 41.46,
+  "load_percentage": 53.47
+},
+{
+  "_id": {
+    "$oid": "68a6c5795d33b520c0f7b911"
+  },
+  "log_id": "LOG00017",
+  "ups_id": "UPS017",
+  "timestamp": {
+    "$date": "2025-08-21T12:36:33.583Z"
+  },
+  "status": "OK",
+  "remarks": "All systems nominal.",
+  "battery_ah": 117.81,
+  "battery_voltage": 48.43,
+  "battery_current": 9.04,
+  "battery_temp_c": 35.36,
+  "health_percent": 98,
+  "room_temperature_c": 25.97,
+  "humidity_percent": 58.3,
+  "inverter_efficiency_percent": 97.88,
+  "inverter_temp_c": 38.16,
+  "load_percentage": 32.25
+},
+{
+  "_id": {
+    "$oid": "68a6c5795d33b520c0f7b913"
+  },
+  "log_id": "LOG00018",
+  "ups_id": "UPS018",
+  "timestamp": {
+    "$date": "2025-08-21T12:36:33.733Z"
+  },
+  "status": "OK",
+  "remarks": "All systems nominal.",
+  "battery_ah": 115.61,
+  "battery_voltage": 46.16,
+  "battery_current": -0.32,
+  "battery_temp_c": 36.82,
+  "health_percent": 96,
+  "room_temperature_c": 21.51,
+  "humidity_percent": 44.57,
+  "inverter_efficiency_percent": 96.48,
+  "inverter_temp_c": 36.92,
+  "load_percentage": 57.23
+},
+{
+  "_id": {
+    "$oid": "68a6c5795d33b520c0f7b915"
+  },
+  "log_id": "LOG00019",
+  "ups_id": "UPS019",
+  "timestamp": {
+    "$date": "2025-08-21T12:36:33.884Z"
+  },
+  "status": "OK",
+  "remarks": "All systems nominal.",
+  "battery_ah": 91.94,
+  "battery_voltage": 50.16,
+  "battery_current": -1.83,
+  "battery_temp_c": 30.55,
+  "health_percent": 98,
+  "room_temperature_c": 23.84,
+  "humidity_percent": 41.95,
+  "inverter_efficiency_percent": 97.03,
+  "inverter_temp_c": 39.86,
+  "load_percentage": 64.79
+},
+{
+  "_id": {
+    "$oid": "68a6c57a5d33b520c0f7b917"
+  },
+  "log_id": "LOG00020",
+  "ups_id": "UPS020",
+  "timestamp": {
+    "$date": "2025-08-21T12:36:34.034Z"
+  },
+  "status": "OK",
+  "remarks": "All systems nominal.",
+  "battery_ah": 114.2,
+  "battery_voltage": 46.36,
+  "battery_current": 1.03,
+  "battery_temp_c": 33.89,
+  "health_percent": 85,
+  "room_temperature_c": 26.36,
+  "humidity_percent": 58.01,
+  "inverter_efficiency_percent": 97.54,
+  "inverter_temp_c": 47.14,
+  "load_percentage": 40.37
+},
+{
+  "_id": {
+    "$oid": "68a6c583f93c5665a3a07d4f"
+  },
+  "log_id": "LOG00001",
+  "ups_id": "UPS001",
+  "timestamp": {
+    "$date": "2025-08-21T12:36:43.197Z"
+  },
+  "status": "OK",
+  "remarks": "All systems nominal.",
+  "battery_ah": 134.93,
+  "battery_voltage": 51.6,
+  "battery_current": 6.32,
+  "battery_temp_c": 37.32,
+  "health_percent": 94,
+  "room_temperature_c": 26.64,
+  "humidity_percent": 58.07,
+  "inverter_efficiency_percent": 97.22,
+  "inverter_temp_c": 39.97,
+  "load_percentage": 44.74
+},
+{
+  "_id": {
+    "$oid": "68a6c583f93c5665a3a07d51"
+  },
+  "log_id": "LOG00002",
+  "ups_id": "UPS002",
+  "timestamp": {
+    "$date": "2025-08-21T12:36:43.349Z"
+  },
+  "status": "OK",
+  "remarks": "All systems nominal.",
+  "battery_ah": 97.86,
+  "battery_voltage": 49.58,
+  "battery_current": 7.04,
+  "battery_temp_c": 37.31,
+  "health_percent": 92,
+  "room_temperature_c": 23.3,
+  "humidity_percent": 45.52,
+  "inverter_efficiency_percent": 98.35,
+  "inverter_temp_c": 41.82,
+  "load_percentage": 45.1
+},
+{
+  "_id": {
+    "$oid": "68a6c583f93c5665a3a07d53"
+  },
+  "log_id": "LOG00003",
+  "ups_id": "UPS003",
+  "timestamp": {
+    "$date": "2025-08-21T12:36:43.508Z"
+  },
+  "status": "OK",
+  "remarks": "All systems nominal.",
+  "battery_ah": 96.11,
+  "battery_voltage": 48.86,
+  "battery_current": 11.14,
+  "battery_temp_c": 31.18,
+  "health_percent": 90,
+  "room_temperature_c": 21.92,
+  "humidity_percent": 45.17,
+  "inverter_efficiency_percent": 97.2,
+  "inverter_temp_c": 35.81,
+  "load_percentage": 63.99
+},
+{
+  "_id": {
+    "$oid": "68a6c583f93c5665a3a07d55"
+  },
+  "log_id": "LOG00004",
+  "ups_id": "UPS004",
+  "timestamp": {
+    "$date": "2025-08-21T12:36:43.667Z"
+  },
+  "status": "OK",
+  "remarks": "All systems nominal.",
+  "battery_ah": 114.37,
+  "battery_voltage": 51.67,
+  "battery_current": 9.02,
+  "battery_temp_c": 36.77,
+  "health_percent": 88,
+  "room_temperature_c": 26.61,
+  "humidity_percent": 56.9,
+  "inverter_efficiency_percent": 97.94,
+  "inverter_temp_c": 38.95,
+  "load_percentage": 64.72
+},
+{
+  "_id": {
+    "$oid": "68a6c583f93c5665a3a07d57"
+  },
+  "log_id": "LOG00005",
+  "ups_id": "UPS005",
+  "timestamp": {
+    "$date": "2025-08-21T12:36:43.824Z"
+  },
+  "status": "OK",
+  "remarks": "All systems nominal.",
+  "battery_ah": 90.69,
+  "battery_voltage": 50.88,
+  "battery_current": 10.49,
+  "battery_temp_c": 35.5,
+  "health_percent": 100,
+  "room_temperature_c": 22.96,
+  "humidity_percent": 58.33,
+  "inverter_efficiency_percent": 96.69,
+  "inverter_temp_c": 44.41,
+  "load_percentage": 67.94
+},
+{
+  "_id": {
+    "$oid": "68a6c584f93c5665a3a07d59"
+  },
+  "log_id": "LOG00006",
+  "ups_id": "UPS006",
+  "timestamp": {
+    "$date": "2025-08-21T12:36:44.024Z"
+  },
+  "status": "OK",
+  "remarks": "All systems nominal.",
+  "battery_ah": 102.42,
+  "battery_voltage": 51.92,
+  "battery_current": 3.16,
+  "battery_temp_c": 33.44,
+  "health_percent": 97,
+  "room_temperature_c": 25.43,
+  "humidity_percent": 46.02,
+  "inverter_efficiency_percent": 97.77,
+  "inverter_temp_c": 45.71,
+  "load_percentage": 60.71
+},
+{
+  "_id": {
+    "$oid": "68a6c584f93c5665a3a07d5b"
+  },
+  "log_id": "LOG00007",
+  "ups_id": "UPS007",
+  "timestamp": {
+    "$date": "2025-08-21T12:36:44.217Z"
+  },
+  "status": "OK",
+  "remarks": "All systems nominal.",
+  "battery_ah": 137.26,
+  "battery_voltage": 51.51,
+  "battery_current": 0.58,
+  "battery_temp_c": 37.79,
+  "health_percent": 87,
+  "room_temperature_c": 21.79,
+  "humidity_percent": 40.1,
+  "inverter_efficiency_percent": 96.44,
+  "inverter_temp_c": 44.44,
+  "load_percentage": 65.63
+},
+{
+  "_id": {
+    "$oid": "68a6c584f93c5665a3a07d5d"
+  },
+  "log_id": "LOG00008",
+  "ups_id": "UPS008",
+  "timestamp": {
+    "$date": "2025-08-21T12:36:44.372Z"
+  },
+  "status": "OK",
+  "remarks": "All systems nominal.",
+  "battery_ah": 96.34,
+  "battery_voltage": 47.38,
+  "battery_current": -1.03,
+  "battery_temp_c": 34.09,
+  "health_percent": 98,
+  "room_temperature_c": 22.35,
+  "humidity_percent": 56.66,
+  "inverter_efficiency_percent": 98.17,
+  "inverter_temp_c": 41.56,
+  "load_percentage": 51.95
+},
+{
+  "_id": {
+    "$oid": "68a6c584f93c5665a3a07d5f"
+  },
+  "log_id": "LOG00009",
+  "ups_id": "UPS009",
+  "timestamp": {
+    "$date": "2025-08-21T12:36:44.528Z"
+  },
+  "status": "OK",
+  "remarks": "All systems nominal.",
+  "battery_ah": 129.38,
+  "battery_voltage": 50.95,
+  "battery_current": 9.2,
+  "battery_temp_c": 30.49,
+  "health_percent": 86,
+  "room_temperature_c": 20.06,
+  "humidity_percent": 55.14,
+  "inverter_efficiency_percent": 96.58,
+  "inverter_temp_c": 41.97,
+  "load_percentage": 62.11
+},
+{
+  "_id": {
+    "$oid": "68a6c584f93c5665a3a07d61"
+  },
+  "log_id": "LOG00010",
+  "ups_id": "UPS010",
+  "timestamp": {
+    "$date": "2025-08-21T12:36:44.679Z"
+  },
+  "status": "OK",
+  "remarks": "All systems nominal.",
+  "battery_ah": 104.65,
+  "battery_voltage": 50.4,
+  "battery_current": 5.95,
+  "battery_temp_c": 29.04,
+  "health_percent": 86,
+  "room_temperature_c": 24.89,
+  "humidity_percent": 54.55,
+  "inverter_efficiency_percent": 96.22,
+  "inverter_temp_c": 40.87,
+  "load_percentage": 31.7
+},
+{
+  "_id": {
+    "$oid": "68a6c584f93c5665a3a07d63"
+  },
+  "log_id": "LOG00011",
+  "ups_id": "UPS011",
+  "timestamp": {
+    "$date": "2025-08-21T12:36:44.831Z"
+  },
+  "status": "OK",
+  "remarks": "All systems nominal.",
+  "battery_ah": 139.48,
+  "battery_voltage": 51.8,
+  "battery_current": -3.83,
+  "battery_temp_c": 29.43,
+  "health_percent": 85,
+  "room_temperature_c": 24.33,
+  "humidity_percent": 40.43,
+  "inverter_efficiency_percent": 96.93,
+  "inverter_temp_c": 44.31,
+  "load_percentage": 34.09
+},
+{
+  "_id": {
+    "$oid": "68a6c585f93c5665a3a07d65"
+  },
+  "log_id": "LOG00012",
+  "ups_id": "UPS012",
+  "timestamp": {
+    "$date": "2025-08-21T12:36:45.020Z"
+  },
+  "status": "OK",
+  "remarks": "All systems nominal.",
+  "battery_ah": 118,
+  "battery_voltage": 48.92,
+  "battery_current": -1.27,
+  "battery_temp_c": 37.23,
+  "health_percent": 87,
+  "room_temperature_c": 24.2,
+  "humidity_percent": 47.37,
+  "inverter_efficiency_percent": 96.83,
+  "inverter_temp_c": 42.32,
+  "load_percentage": 58.79
+},
+{
+  "_id": {
+    "$oid": "68a6c585f93c5665a3a07d67"
+  },
+  "log_id": "LOG00013",
+  "ups_id": "UPS013",
+  "timestamp": {
+    "$date": "2025-08-21T12:36:45.172Z"
+  },
+  "status": "OK",
+  "remarks": "All systems nominal.",
+  "battery_ah": 92.06,
+  "battery_voltage": 51.17,
+  "battery_current": 7.73,
+  "battery_temp_c": 38.25,
+  "health_percent": 95,
+  "room_temperature_c": 22.97,
+  "humidity_percent": 52.67,
+  "inverter_efficiency_percent": 97.79,
+  "inverter_temp_c": 47.48,
+  "load_percentage": 37.69
+},
+{
+  "_id": {
+    "$oid": "68a6c585f93c5665a3a07d69"
+  },
+  "log_id": "LOG00014",
+  "ups_id": "UPS014",
+  "timestamp": {
+    "$date": "2025-08-21T12:36:45.326Z"
+  },
+  "status": "OK",
+  "remarks": "All systems nominal.",
+  "battery_ah": 136.92,
+  "battery_voltage": 51.92,
+  "battery_current": 14.35,
+  "battery_temp_c": 28.72,
+  "health_percent": 90,
+  "room_temperature_c": 26.9,
+  "humidity_percent": 49.58,
+  "inverter_efficiency_percent": 96.18,
+  "inverter_temp_c": 47,
+  "load_percentage": 37.02
+},
+{
+  "_id": {
+    "$oid": "68a6c585f93c5665a3a07d6b"
+  },
+  "log_id": "LOG00015",
+  "ups_id": "UPS015",
+  "timestamp": {
+    "$date": "2025-08-21T12:36:45.496Z"
+  },
+  "status": "Failure",
+  "remarks": "System alert detected.",
+  "battery_ah": 149.32,
+  "battery_voltage": 42.68,
+  "battery_current": 13.19,
+  "battery_temp_c": 50.91,
+  "health_percent": 59,
+  "room_temperature_c": 21.54,
+  "humidity_percent": 47.72,
+  "inverter_efficiency_percent": 88.68,
+  "inverter_temp_c": 71.52,
+  "load_percentage": 89.21
+},
+{
+  "_id": {
+    "$oid": "68a6c585f93c5665a3a07d6d"
+  },
+  "log_id": "LOG00016",
+  "ups_id": "UPS016",
+  "timestamp": {
+    "$date": "2025-08-21T12:36:45.661Z"
+  },
+  "status": "OK",
+  "remarks": "All systems nominal.",
+  "battery_ah": 133.36,
+  "battery_voltage": 48.88,
+  "battery_current": 0.02,
+  "battery_temp_c": 38.52,
+  "health_percent": 99,
+  "room_temperature_c": 25.74,
+  "humidity_percent": 41.68,
+  "inverter_efficiency_percent": 98.41,
+  "inverter_temp_c": 42.64,
+  "load_percentage": 68
+},
+{
+  "_id": {
+    "$oid": "68a6c585f93c5665a3a07d6f"
+  },
+  "log_id": "LOG00017",
+  "ups_id": "UPS017",
+  "timestamp": {
+    "$date": "2025-08-21T12:36:45.835Z"
+  },
+  "status": "OK",
+  "remarks": "All systems nominal.",
+  "battery_ah": 123.91,
+  "battery_voltage": 46.42,
+  "battery_current": -2.78,
+  "battery_temp_c": 39.49,
+  "health_percent": 98,
+  "room_temperature_c": 25.7,
+  "humidity_percent": 57.53,
+  "inverter_efficiency_percent": 97.66,
+  "inverter_temp_c": 37.29,
+  "load_percentage": 40.26
+},
+{
+  "_id": {
+    "$oid": "68a6c586f93c5665a3a07d71"
+  },
+  "log_id": "LOG00018",
+  "ups_id": "UPS018",
+  "timestamp": {
+    "$date": "2025-08-21T12:36:46.020Z"
+  },
+  "status": "OK",
+  "remarks": "All systems nominal.",
+  "battery_ah": 137.01,
+  "battery_voltage": 46.61,
+  "battery_current": -1.54,
+  "battery_temp_c": 39.56,
+  "health_percent": 97,
+  "room_temperature_c": 22.25,
+  "humidity_percent": 59.96,
+  "inverter_efficiency_percent": 97.08,
+  "inverter_temp_c": 49.36,
+  "load_percentage": 38.78
+},
+{
+  "_id": {
+    "$oid": "68a6c586f93c5665a3a07d73"
+  },
+  "log_id": "LOG00019",
+  "ups_id": "UPS019",
+  "timestamp": {
+    "$date": "2025-08-21T12:36:46.213Z"
+  },
+  "status": "OK",
+  "remarks": "All systems nominal.",
+  "battery_ah": 116.69,
+  "battery_voltage": 50.25,
+  "battery_current": 13.98,
+  "battery_temp_c": 28.7,
+  "health_percent": 86,
+  "room_temperature_c": 20.82,
+  "humidity_percent": 50.32,
+  "inverter_efficiency_percent": 96.41,
+  "inverter_temp_c": 44.52,
+  "load_percentage": 49.92
+},
+{
+  "_id": {
+    "$oid": "68a6c586f93c5665a3a07d75"
+  },
+  "log_id": "LOG00020",
+  "ups_id": "UPS020",
+  "timestamp": {
+    "$date": "2025-08-21T12:36:46.407Z"
+  },
+  "status": "OK",
+  "remarks": "All systems nominal.",
+  "battery_ah": 112.53,
+  "battery_voltage": 50.38,
+  "battery_current": -3.34,
+  "battery_temp_c": 34.62,
+  "health_percent": 90,
+  "room_temperature_c": 20.62,
+  "humidity_percent": 40.21,
+  "inverter_efficiency_percent": 96.06,
+  "inverter_temp_c": 45.36,
+  "load_percentage": 58.76
+},
+{
+  "_id": {
+    "$oid": "68a6c59c71815b767c50ec9d"
+  },
+  "log_id": "LOG00001",
+  "ups_id": "UPS001",
+  "timestamp": {
+    "$date": "2025-08-21T12:37:08.886Z"
+  },
+  "status": "OK",
+  "remarks": "All systems nominal.",
+  "battery_ah": 132.7,
+  "battery_voltage": 51.07,
+  "battery_current": 4.8,
+  "battery_temp_c": 28.2,
+  "health_percent": 88,
+  "room_temperature_c": 20.6,
+  "humidity_percent": 50.08,
+  "inverter_efficiency_percent": 98.19,
+  "inverter_temp_c": 37.34,
+  "load_percentage": 43.14
+},
+{
+  "_id": {
+    "$oid": "68a6c59d71815b767c50ec9f"
+  },
+  "log_id": "LOG00002",
+  "ups_id": "UPS002",
+  "timestamp": {
+    "$date": "2025-08-21T12:37:09.039Z"
+  },
+  "status": "OK",
+  "remarks": "All systems nominal.",
+  "battery_ah": 104.42,
+  "battery_voltage": 51.67,
+  "battery_current": 13.54,
+  "battery_temp_c": 34.83,
+  "health_percent": 89,
+  "room_temperature_c": 24.92,
+  "humidity_percent": 44.4,
+  "inverter_efficiency_percent": 98.11,
+  "inverter_temp_c": 36.51,
+  "load_percentage": 62.44
+},
+{
+  "_id": {
+    "$oid": "68a6c59d71815b767c50eca1"
+  },
+  "log_id": "LOG00003",
+  "ups_id": "UPS003",
+  "timestamp": {
+    "$date": "2025-08-21T12:37:09.233Z"
+  },
+  "status": "OK",
+  "remarks": "All systems nominal.",
+  "battery_ah": 111.33,
+  "battery_voltage": 47.25,
+  "battery_current": 1.22,
+  "battery_temp_c": 34.54,
+  "health_percent": 97,
+  "room_temperature_c": 21.41,
+  "humidity_percent": 54.62,
+  "inverter_efficiency_percent": 98.38,
+  "inverter_temp_c": 45.4,
+  "load_percentage": 49.01
+},
+{
+  "_id": {
+    "$oid": "68a6c59d71815b767c50eca3"
+  },
+  "log_id": "LOG00004",
+  "ups_id": "UPS004",
+  "timestamp": {
+    "$date": "2025-08-21T12:37:09.389Z"
+  },
+  "status": "OK",
+  "remarks": "All systems nominal.",
+  "battery_ah": 114.54,
+  "battery_voltage": 47.53,
+  "battery_current": -0.6,
+  "battery_temp_c": 38.02,
+  "health_percent": 97,
+  "room_temperature_c": 26.13,
+  "humidity_percent": 42.2,
+  "inverter_efficiency_percent": 97.44,
+  "inverter_temp_c": 37.13,
+  "load_percentage": 69.36
+},
+{
+  "_id": {
+    "$oid": "68a6c59d71815b767c50eca5"
+  },
+  "log_id": "LOG00005",
+  "ups_id": "UPS005",
+  "timestamp": {
+    "$date": "2025-08-21T12:37:09.588Z"
+  },
+  "status": "OK",
+  "remarks": "All systems nominal.",
+  "battery_ah": 138.27,
+  "battery_voltage": 48.77,
+  "battery_current": 14.04,
+  "battery_temp_c": 34.42,
+  "health_percent": 88,
+  "room_temperature_c": 20.85,
+  "humidity_percent": 43.55,
+  "inverter_efficiency_percent": 98.46,
+  "inverter_temp_c": 44.12,
+  "load_percentage": 43.46
+},
+{
+  "_id": {
+    "$oid": "68a6c59d71815b767c50eca7"
+  },
+  "log_id": "LOG00006",
+  "ups_id": "UPS006",
+  "timestamp": {
+    "$date": "2025-08-21T12:37:09.762Z"
+  },
+  "status": "OK",
+  "remarks": "All systems nominal.",
+  "battery_ah": 135.46,
+  "battery_voltage": 47.06,
+  "battery_current": -4.75,
+  "battery_temp_c": 37.81,
+  "health_percent": 99,
+  "room_temperature_c": 27.07,
+  "humidity_percent": 59.56,
+  "inverter_efficiency_percent": 97.59,
+  "inverter_temp_c": 35.17,
+  "load_percentage": 30.72
+},
+{
+  "_id": {
+    "$oid": "68a6c59d71815b767c50eca9"
+  },
+  "log_id": "LOG00007",
+  "ups_id": "UPS007",
+  "timestamp": {
+    "$date": "2025-08-21T12:37:09.943Z"
+  },
+  "status": "OK",
+  "remarks": "All systems nominal.",
+  "battery_ah": 108.13,
+  "battery_voltage": 46.59,
+  "battery_current": 2.21,
+  "battery_temp_c": 33.97,
+  "health_percent": 100,
+  "room_temperature_c": 24.74,
+  "humidity_percent": 43.24,
+  "inverter_efficiency_percent": 97.44,
+  "inverter_temp_c": 35.12,
+  "load_percentage": 43.74
+},
+{
+  "_id": {
+    "$oid": "68a6c59e71815b767c50ecab"
+  },
+  "log_id": "LOG00008",
+  "ups_id": "UPS008",
+  "timestamp": {
+    "$date": "2025-08-21T12:37:10.102Z"
+  },
+  "status": "OK",
+  "remarks": "All systems nominal.",
+  "battery_ah": 93.45,
+  "battery_voltage": 51.12,
+  "battery_current": 14.95,
+  "battery_temp_c": 38.27,
+  "health_percent": 90,
+  "room_temperature_c": 27.35,
+  "humidity_percent": 48.83,
+  "inverter_efficiency_percent": 97.1,
+  "inverter_temp_c": 40.24,
+  "load_percentage": 41.47
+},
+{
+  "_id": {
+    "$oid": "68a6c59e71815b767c50ecad"
+  },
+  "log_id": "LOG00009",
+  "ups_id": "UPS009",
+  "timestamp": {
+    "$date": "2025-08-21T12:37:10.304Z"
+  },
+  "status": "OK",
+  "remarks": "All systems nominal.",
+  "battery_ah": 144.62,
+  "battery_voltage": 51.91,
+  "battery_current": -2.13,
+  "battery_temp_c": 34.67,
+  "health_percent": 92,
+  "room_temperature_c": 27.82,
+  "humidity_percent": 41.86,
+  "inverter_efficiency_percent": 97.73,
+  "inverter_temp_c": 47.1,
+  "load_percentage": 67.47
+},
+{
+  "_id": {
+    "$oid": "68a6c59e71815b767c50ecaf"
+  },
+  "log_id": "LOG00010",
+  "ups_id": "UPS010",
+  "timestamp": {
+    "$date": "2025-08-21T12:37:10.476Z"
+  },
+  "status": "OK",
+  "remarks": "All systems nominal.",
+  "battery_ah": 104.78,
+  "battery_voltage": 48.74,
+  "battery_current": 14.59,
+  "battery_temp_c": 37.24,
+  "health_percent": 85,
+  "room_temperature_c": 26.01,
+  "humidity_percent": 57.56,
+  "inverter_efficiency_percent": 96.13,
+  "inverter_temp_c": 35.48,
+  "load_percentage": 37.1
+},
+{
+  "_id": {
+    "$oid": "68a6c59e71815b767c50ecb1"
+  },
+  "log_id": "LOG00011",
+  "ups_id": "UPS011",
+  "timestamp": {
+    "$date": "2025-08-21T12:37:10.635Z"
+  },
+  "status": "OK",
+  "remarks": "All systems nominal.",
+  "battery_ah": 132.1,
+  "battery_voltage": 46.72,
+  "battery_current": 0.53,
+  "battery_temp_c": 28.55,
+  "health_percent": 92,
+  "room_temperature_c": 25.2,
+  "humidity_percent": 48.29,
+  "inverter_efficiency_percent": 98.37,
+  "inverter_temp_c": 49.28,
+  "load_percentage": 47.03
+},
+{
+  "_id": {
+    "$oid": "68a6c59e71815b767c50ecb3"
+  },
+  "log_id": "LOG00012",
+  "ups_id": "UPS012",
+  "timestamp": {
+    "$date": "2025-08-21T12:37:10.802Z"
+  },
+  "status": "OK",
+  "remarks": "All systems nominal.",
+  "battery_ah": 117.01,
+  "battery_voltage": 51.56,
+  "battery_current": -1.92,
+  "battery_temp_c": 37.03,
+  "health_percent": 92,
+  "room_temperature_c": 23.86,
+  "humidity_percent": 57.52,
+  "inverter_efficiency_percent": 97.2,
+  "inverter_temp_c": 43.36,
+  "load_percentage": 30.45
+},
+{
+  "_id": {
+    "$oid": "68a6c59f71815b767c50ecb5"
+  },
+  "log_id": "LOG00013",
+  "ups_id": "UPS013",
+  "timestamp": {
+    "$date": "2025-08-21T12:37:11.006Z"
+  },
+  "status": "OK",
+  "remarks": "All systems nominal.",
+  "battery_ah": 106.7,
+  "battery_voltage": 49.68,
+  "battery_current": 10.89,
+  "battery_temp_c": 36.98,
+  "health_percent": 85,
+  "room_temperature_c": 25.42,
+  "humidity_percent": 59.51,
+  "inverter_efficiency_percent": 96.13,
+  "inverter_temp_c": 41.91,
+  "load_percentage": 35.64
+},
+{
+  "_id": {
+    "$oid": "68a6c59f71815b767c50ecb7"
+  },
+  "log_id": "LOG00014",
+  "ups_id": "UPS014",
+  "timestamp": {
+    "$date": "2025-08-21T12:37:11.173Z"
+  },
+  "status": "OK",
+  "remarks": "All systems nominal.",
+  "battery_ah": 91.01,
+  "battery_voltage": 49.23,
+  "battery_current": 6.03,
+  "battery_temp_c": 35.81,
+  "health_percent": 88,
+  "room_temperature_c": 22.38,
+  "humidity_percent": 50.22,
+  "inverter_efficiency_percent": 96.28,
+  "inverter_temp_c": 47.13,
+  "load_percentage": 30.93
+},
+{
+  "_id": {
+    "$oid": "68a6c59f71815b767c50ecb9"
+  },
+  "log_id": "LOG00015",
+  "ups_id": "UPS015",
+  "timestamp": {
+    "$date": "2025-08-21T12:37:11.337Z"
+  },
+  "status": "OK",
+  "remarks": "All systems nominal.",
+  "battery_ah": 96.26,
+  "battery_voltage": 50.74,
+  "battery_current": -3.6,
+  "battery_temp_c": 33.58,
+  "health_percent": 91,
+  "room_temperature_c": 25.88,
+  "humidity_percent": 56.43,
+  "inverter_efficiency_percent": 96.23,
+  "inverter_temp_c": 42.81,
+  "load_percentage": 66.29
+},
+{
+  "_id": {
+    "$oid": "68a6c59f71815b767c50ecbb"
+  },
+  "log_id": "LOG00016",
+  "ups_id": "UPS016",
+  "timestamp": {
+    "$date": "2025-08-21T12:37:11.487Z"
+  },
+  "status": "OK",
+  "remarks": "All systems nominal.",
+  "battery_ah": 130.92,
+  "battery_voltage": 51.47,
+  "battery_current": -2.44,
+  "battery_temp_c": 35.35,
+  "health_percent": 88,
+  "room_temperature_c": 26.21,
+  "humidity_percent": 40.72,
+  "inverter_efficiency_percent": 97.39,
+  "inverter_temp_c": 35.16,
+  "load_percentage": 33.85
+},
+{
+  "_id": {
+    "$oid": "68a6c59f71815b767c50ecbd"
+  },
+  "log_id": "LOG00017",
+  "ups_id": "UPS017",
+  "timestamp": {
+    "$date": "2025-08-21T12:37:11.638Z"
+  },
+  "status": "OK",
+  "remarks": "All systems nominal.",
+  "battery_ah": 94.99,
+  "battery_voltage": 47.18,
+  "battery_current": 14.71,
+  "battery_temp_c": 30.49,
+  "health_percent": 88,
+  "room_temperature_c": 26.35,
+  "humidity_percent": 50.73,
+  "inverter_efficiency_percent": 96.98,
+  "inverter_temp_c": 47.8,
+  "load_percentage": 57.95
+},
+{
+  "_id": {
+    "$oid": "68a6c59f71815b767c50ecbf"
+  },
+  "log_id": "LOG00018",
+  "ups_id": "UPS018",
+  "timestamp": {
+    "$date": "2025-08-21T12:37:11.799Z"
+  },
+  "status": "OK",
+  "remarks": "All systems nominal.",
+  "battery_ah": 109.39,
+  "battery_voltage": 51.07,
+  "battery_current": 2.55,
+  "battery_temp_c": 35.51,
+  "health_percent": 91,
+  "room_temperature_c": 21.69,
+  "humidity_percent": 44,
+  "inverter_efficiency_percent": 97.79,
+  "inverter_temp_c": 37.17,
+  "load_percentage": 51.42
+},
+{
+  "_id": {
+    "$oid": "68a6c59f71815b767c50ecc1"
+  },
+  "log_id": "LOG00019",
+  "ups_id": "UPS019",
+  "timestamp": {
+    "$date": "2025-08-21T12:37:11.948Z"
+  },
+  "status": "OK",
+  "remarks": "All systems nominal.",
+  "battery_ah": 126.57,
+  "battery_voltage": 46.38,
+  "battery_current": 2.2,
+  "battery_temp_c": 30.76,
+  "health_percent": 87,
+  "room_temperature_c": 27.65,
+  "humidity_percent": 55.94,
+  "inverter_efficiency_percent": 97.97,
+  "inverter_temp_c": 49.87,
+  "load_percentage": 57.92
+},
+{
+  "_id": {
+    "$oid": "68a6c5a071815b767c50ecc3"
+  },
+  "log_id": "LOG00020",
+  "ups_id": "UPS020",
+  "timestamp": {
+    "$date": "2025-08-21T12:37:12.100Z"
+  },
+  "status": "OK",
+  "remarks": "All systems nominal.",
+  "battery_ah": 92.83,
+  "battery_voltage": 50.62,
+  "battery_current": 14.64,
+  "battery_temp_c": 36.06,
+  "health_percent": 85,
+  "room_temperature_c": 21.51,
+  "humidity_percent": 48.92,
+  "inverter_efficiency_percent": 97.75,
+  "inverter_temp_c": 41.77,
+  "load_percentage": 55.15
+}]

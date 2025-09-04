@@ -83,7 +83,7 @@ def check_monitoring_service():
         import os
         from dotenv import load_dotenv
         load_dotenv()
-        client = MongoClient(os.getenv('MONGODB_URI', 'mongodb://localhost:27017'))
+        client = MongoClient(os.getenv('MONGODB_URI'))
         db = client['UPS_DATA_MONITORING']
         
         # Check predictions collection

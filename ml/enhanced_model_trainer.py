@@ -19,7 +19,7 @@ class EnhancedUPSModelTrainer:
         self.model = None
         self.model_path = os.path.join(os.path.dirname(__file__), 'ups_failure_model.pkl')
         # Mongo config (fallback to env)
-        self.mongo_uri = os.getenv("MONGODB_URI", "mongodb://localhost:27017")
+        self.mongo_uri = os.getenv("MONGODB_URI")
         self.db_name = os.getenv("DB_NAME", "UPS_DATA_MONITORING")
         self.history_collection = os.getenv("UPS_HISTORY_COLLECTION", "ups_history")
         # Initialize Gemini AI service for enhanced failure analysis

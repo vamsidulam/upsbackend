@@ -7,7 +7,7 @@ from pymongo import MongoClient
 import os
 
 # MongoDB connection
-MONGODB_URI = os.getenv("MONGODB_URI", "mongodb://localhost:27017")
+MONGODB_URI = os.getenv("MONGODB_URI")
 DB_NAME = os.getenv("DB_NAME", "UPS_DATA_MONITORING")
 
 client = MongoClient(MONGODB_URI)

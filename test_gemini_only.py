@@ -28,7 +28,7 @@ def generate_gemini_predictions():
     load_dotenv('atlas.env')
     
     # Connect to MongoDB
-    mongodb_uri = os.getenv("MONGODB_URI", "mongodb://localhost:27017")
+    mongodb_uri = os.getenv("MONGODB_URI")
     db_name = os.getenv("DB_NAME", "UPS_DATA_MONITORING")
     
     try:

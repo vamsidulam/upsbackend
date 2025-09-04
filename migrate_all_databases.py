@@ -13,7 +13,7 @@ from datetime import datetime
 import time
 
 # Configuration
-LOCAL_MONGODB_URI = "mongodb://localhost:27017"
+
 
 # MongoDB Atlas connection string
 ATLAS_MONGODB_URI = "mongodb+srv://vamsidulam11:vamsi2005121@cluster0.4kq3vjn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"

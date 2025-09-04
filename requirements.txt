@@ -3,6 +3,11 @@ uvicorn[standard]==0.24.0.post1
 pymongo==4.6.0
 python-dotenv==1.0.0
 
+# Authentication dependencies
+passlib[bcrypt]==1.7.4
+python-jose[cryptography]==3.3.0
+python-multipart==0.0.6
+
 # Data science stack (pinned to versions that work well with Python 3.11)
 numpy==1.26.4
 pandas==2.2.2

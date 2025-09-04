@@ -1,0 +1,380 @@
+[{
+  "_id": {
+    "$oid": "68a6c5f0a383b41636ef8e5e"
+  },
+  "ups_id": "UPS001",
+  "report_timestamp": {
+    "$date": "2025-08-21T12:38:32.481Z"
+  },
+  "monitoring_period_start": {
+    "$date": "2025-08-21T11:38:32.260Z"
+  },
+  "monitoring_period_end": {
+    "$date": "2025-08-21T12:38:32.260Z"
+  },
+  "status": "Normal",
+  "remarks": "All systems operating within normal parameters for the last hour.",
+  "reason": "N/A",
+  "recommended_action": "No action required."
+},
+{
+  "_id": {
+    "$oid": "68a6c5f0a383b41636ef8e5f"
+  },
+  "ups_id": "UPS002",
+  "report_timestamp": {
+    "$date": "2025-08-21T12:38:32.482Z"
+  },
+  "monitoring_period_start": {
+    "$date": "2025-08-21T11:38:32.260Z"
+  },
+  "monitoring_period_end": {
+    "$date": "2025-08-21T12:38:32.260Z"
+  },
+  "status": "Normal",
+  "remarks": "All systems operating within normal parameters for the last hour.",
+  "reason": "N/A",
+  "recommended_action": "No action required."
+},
+{
+  "_id": {
+    "$oid": "68a6c5f0a383b41636ef8e60"
+  },
+  "ups_id": "UPS003",
+  "report_timestamp": {
+    "$date": "2025-08-21T12:38:32.482Z"
+  },
+  "monitoring_period_start": {
+    "$date": "2025-08-21T11:38:32.260Z"
+  },
+  "monitoring_period_end": {
+    "$date": "2025-08-21T12:38:32.260Z"
+  },
+  "status": "Normal",
+  "remarks": "All systems operating within normal parameters for the last hour.",
+  "reason": "N/A",
+  "recommended_action": "No action required."
+},
+{
+  "_id": {
+    "$oid": "68a6c5f0a383b41636ef8e61"
+  },
+  "ups_id": "UPS004",
+  "report_timestamp": {
+    "$date": "2025-08-21T12:38:32.482Z"
+  },
+  "monitoring_period_start": {
+    "$date": "2025-08-21T11:38:32.260Z"
+  },
+  "monitoring_period_end": {
+    "$date": "2025-08-21T12:38:32.260Z"
+  },
+  "status": "Normal",
+  "remarks": "All systems operating within normal parameters for the last hour.",
+  "reason": "N/A",
+  "recommended_action": "No action required."
+},
+{
+  "_id": {
+    "$oid": "68a6c5f0a383b41636ef8e62"
+  },
+  "ups_id": "UPS005",
+  "report_timestamp": {
+    "$date": "2025-08-21T12:38:32.483Z"
+  },
+  "monitoring_period_start": {
+    "$date": "2025-08-21T11:38:32.260Z"
+  },
+  "monitoring_period_end": {
+    "$date": "2025-08-21T12:38:32.260Z"
+  },
+  "status": "Failure Predicted",
+  "remarks": "Failure event detected at 12:36:31. Please inspect.",
+  "reason": "Low Battery Voltage",
+  "recommended_action": "Inspect battery health and charging system."
+},
+{
+  "_id": {
+    "$oid": "68a6c5f0a383b41636ef8e63"
+  },
+  "ups_id": "UPS006",
+  "report_timestamp": {
+    "$date": "2025-08-21T12:38:32.485Z"
+  },
+  "monitoring_period_start": {
+    "$date": "2025-08-21T11:38:32.260Z"
+  },
+  "monitoring_period_end": {
+    "$date": "2025-08-21T12:38:32.260Z"
+  },
+  "status": "Normal",
+  "remarks": "All systems operating within normal parameters for the last hour.",
+  "reason": "N/A",
+  "recommended_action": "No action required."
+},
+{
+  "_id": {
+    "$oid": "68a6c5f0a383b41636ef8e64"
+  },
+  "ups_id": "UPS007",
+  "report_timestamp": {
+    "$date": "2025-08-21T12:38:32.485Z"
+  },
+  "monitoring_period_start": {
+    "$date": "2025-08-21T11:38:32.260Z"
+  },
+  "monitoring_period_end": {
+    "$date": "2025-08-21T12:38:32.260Z"
+  },
+  "status": "Normal",
+  "remarks": "All systems operating within normal parameters for the last hour.",
+  "reason": "N/A",
+  "recommended_action": "No action required."
+},
+{
+  "_id": {
+    "$oid": "68a6c5f0a383b41636ef8e65"
+  },
+  "ups_id": "UPS008",
+  "report_timestamp": {
+    "$date": "2025-08-21T12:38:32.486Z"
+  },
+  "monitoring_period_start": {
+    "$date": "2025-08-21T11:38:32.260Z"
+  },
+  "monitoring_period_end": {
+    "$date": "2025-08-21T12:38:32.260Z"
+  },
+  "status": "Normal",
+  "remarks": "All systems operating within normal parameters for the last hour.",
+  "reason": "N/A",
+  "recommended_action": "No action required."
+},
+{
+  "_id": {
+    "$oid": "68a6c5f0a383b41636ef8e66"
+  },
+  "ups_id": "UPS009",
+  "report_timestamp": {
+    "$date": "2025-08-21T12:38:32.486Z"
+  },
+  "monitoring_period_start": {
+    "$date": "2025-08-21T11:38:32.260Z"
+  },
+  "monitoring_period_end": {
+    "$date": "2025-08-21T12:38:32.260Z"
+  },
+  "status": "Failure Predicted",
+  "remarks": "Failure event detected at 12:35:40. Please inspect.",
+  "reason": "Low Battery Voltage",
+  "recommended_action": "Inspect battery health and charging system."
+},
+{
+  "_id": {
+    "$oid": "68a6c5f0a383b41636ef8e67"
+  },
+  "ups_id": "UPS010",
+  "report_timestamp": {
+    "$date": "2025-08-21T12:38:32.487Z"
+  },
+  "monitoring_period_start": {
+    "$date": "2025-08-21T11:38:32.260Z"
+  },
+  "monitoring_period_end": {
+    "$date": "2025-08-21T12:38:32.260Z"
+  },
+  "status": "Normal",
+  "remarks": "All systems operating within normal parameters for the last hour.",
+  "reason": "N/A",
+  "recommended_action": "No action required."
+},
+{
+  "_id": {
+    "$oid": "68a6c5f0a383b41636ef8e68"
+  },
+  "ups_id": "UPS011",
+  "report_timestamp": {
+    "$date": "2025-08-21T12:38:32.487Z"
+  },
+  "monitoring_period_start": {
+    "$date": "2025-08-21T11:38:32.260Z"
+  },
+  "monitoring_period_end": {
+    "$date": "2025-08-21T12:38:32.260Z"
+  },
+  "status": "Normal",
+  "remarks": "All systems operating within normal parameters for the last hour.",
+  "reason": "N/A",
+  "recommended_action": "No action required."
+},
+{
+  "_id": {
+    "$oid": "68a6c5f0a383b41636ef8e69"
+  },
+  "ups_id": "UPS012",
+  "report_timestamp": {
+    "$date": "2025-08-21T12:38:32.488Z"
+  },
+  "monitoring_period_start": {
+    "$date": "2025-08-21T11:38:32.260Z"
+  },
+  "monitoring_period_end": {
+    "$date": "2025-08-21T12:38:32.260Z"
+  },
+  "status": "Normal",
+  "remarks": "All systems operating within normal parameters for the last hour.",
+  "reason": "N/A",
+  "recommended_action": "No action required."
+},
+{
+  "_id": {
+    "$oid": "68a6c5f0a383b41636ef8e6a"
+  },
+  "ups_id": "UPS013",
+  "report_timestamp": {
+    "$date": "2025-08-21T12:38:32.488Z"
+  },
+  "monitoring_period_start": {
+    "$date": "2025-08-21T11:38:32.260Z"
+  },
+  "monitoring_period_end": {
+    "$date": "2025-08-21T12:38:32.260Z"
+  },
+  "status": "Failure Predicted",
+  "remarks": "Failure event detected at 12:35:41. Please inspect.",
+  "reason": "Inverter Overheating",
+  "recommended_action": "Check inverter cooling fans and ventilation."
+},
+{
+  "_id": {
+    "$oid": "68a6c5f0a383b41636ef8e6b"
+  },
+  "ups_id": "UPS014",
+  "report_timestamp": {
+    "$date": "2025-08-21T12:38:32.490Z"
+  },
+  "monitoring_period_start": {
+    "$date": "2025-08-21T11:38:32.260Z"
+  },
+  "monitoring_period_end": {
+    "$date": "2025-08-21T12:38:32.260Z"
+  },
+  "status": "Normal",
+  "remarks": "All systems operating within normal parameters for the last hour.",
+  "reason": "N/A",
+  "recommended_action": "No action required."
+},
+{
+  "_id": {
+    "$oid": "68a6c5f0a383b41636ef8e6c"
+  },
+  "ups_id": "UPS015",
+  "report_timestamp": {
+    "$date": "2025-08-21T12:38:32.491Z"
+  },
+  "monitoring_period_start": {
+    "$date": "2025-08-21T11:38:32.260Z"
+  },
+  "monitoring_period_end": {
+    "$date": "2025-08-21T12:38:32.260Z"
+  },
+  "status": "Failure Predicted",
+  "remarks": "Failure event detected at 12:36:22. Please inspect.",
+  "reason": "Inverter Overheating",
+  "recommended_action": "Check inverter cooling fans and ventilation."
+},
+{
+  "_id": {
+    "$oid": "68a6c5f0a383b41636ef8e6d"
+  },
+  "ups_id": "UPS016",
+  "report_timestamp": {
+    "$date": "2025-08-21T12:38:32.492Z"
+  },
+  "monitoring_period_start": {
+    "$date": "2025-08-21T11:38:32.260Z"
+  },
+  "monitoring_period_end": {
+    "$date": "2025-08-21T12:38:32.260Z"
+  },
+  "status": "Normal",
+  "remarks": "All systems operating within normal parameters for the last hour.",
+  "reason": "N/A",
+  "recommended_action": "No action required."
+},
+{
+  "_id": {
+    "$oid": "68a6c5f0a383b41636ef8e6e"
+  },
+  "ups_id": "UPS017",
+  "report_timestamp": {
+    "$date": "2025-08-21T12:38:32.492Z"
+  },
+  "monitoring_period_start": {
+    "$date": "2025-08-21T11:38:32.260Z"
+  },
+  "monitoring_period_end": {
+    "$date": "2025-08-21T12:38:32.260Z"
+  },
+  "status": "Normal",
+  "remarks": "All systems operating within normal parameters for the last hour.",
+  "reason": "N/A",
+  "recommended_action": "No action required."
+},
+{
+  "_id": {
+    "$oid": "68a6c5f0a383b41636ef8e6f"
+  },
+  "ups_id": "UPS018",
+  "report_timestamp": {
+    "$date": "2025-08-21T12:38:32.493Z"
+  },
+  "monitoring_period_start": {
+    "$date": "2025-08-21T11:38:32.260Z"
+  },
+  "monitoring_period_end": {
+    "$date": "2025-08-21T12:38:32.260Z"
+  },
+  "status": "Normal",
+  "remarks": "All systems operating within normal parameters for the last hour.",
+  "reason": "N/A",
+  "recommended_action": "No action required."
+},
+{
+  "_id": {
+    "$oid": "68a6c5f0a383b41636ef8e70"
+  },
+  "ups_id": "UPS019",
+  "report_timestamp": {
+    "$date": "2025-08-21T12:38:32.493Z"
+  },
+  "monitoring_period_start": {
+    "$date": "2025-08-21T11:38:32.260Z"
+  },
+  "monitoring_period_end": {
+    "$date": "2025-08-21T12:38:32.260Z"
+  },
+  "status": "Normal",
+  "remarks": "All systems operating within normal parameters for the last hour.",
+  "reason": "N/A",
+  "recommended_action": "No action required."
+},
+{
+  "_id": {
+    "$oid": "68a6c5f0a383b41636ef8e71"
+  },
+  "ups_id": "UPS020",
+  "report_timestamp": {
+    "$date": "2025-08-21T12:38:32.493Z"
+  },
+  "monitoring_period_start": {
+    "$date": "2025-08-21T11:38:32.260Z"
+  },
+  "monitoring_period_end": {
+    "$date": "2025-08-21T12:38:32.260Z"
+  },
+  "status": "Normal",
+  "remarks": "All systems operating within normal parameters for the last hour.",
+  "reason": "N/A",
+  "recommended_action": "No action required."
+}]

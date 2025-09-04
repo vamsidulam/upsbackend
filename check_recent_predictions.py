@@ -13,7 +13,7 @@ def check_recent_predictions():
         import os
         from dotenv import load_dotenv
         load_dotenv()
-        client = MongoClient(os.getenv('MONGODB_URI', 'mongodb://localhost:27017'))
+        client = MongoClient(os.getenv('MONGODB_URI'))
         db = client['UPS_DATA_MONITORING']
         predictions_collection = db['ups_predictions']
         

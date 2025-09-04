@@ -37,7 +37,7 @@ logger = logging.getLogger(__name__)
 class ContinuousPredictionService:
     def __init__(self):
         self.enhanced_trainer = EnhancedUPSModelTrainer()
-        self.mongodb_uri = os.getenv("MONGODB_URI", "mongodb://localhost:27017")
+        self.mongodb_uri = os.getenv("MONGODB_URI")
         self.db_name = os.getenv("DB_NAME", "UPS_DATA_MONITORING")
         self.collection_name = "ups_predictions"
         
