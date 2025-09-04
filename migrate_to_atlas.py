@@ -12,12 +12,16 @@ import json
 from datetime import datetime
 import time
 
+from dotenv import load_dotenv
+
+load_dotenv()
+
 # Configuration
-LOCAL_MONGODB_URI = "mongodb+srv://vamsidulam11:vamsi2005121@cluster0.4kq3vjn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+LOCAL_MONGODB_URI = os.getenv("MONGODB_URI")
 LOCAL_DB_NAME = "UPS_DATA_MONITORING"
 
 # MongoDB Atlas connection string
-ATLAS_MONGODB_URI = "mongodb+srv://vamsidulam11:vamsi2005121@cluster0.4kq3vjn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+ATLAS_MONGODB_URI = os.getenv("MONGODB_URI")
 ATLAS_DB_NAME = "UPS_DATA_MONITORING"
 
 # Collections to migrate
