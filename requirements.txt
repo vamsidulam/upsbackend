@@ -12,3 +12,4 @@ numpy==2.3.2
 pandas==2.3.2
 google-genai==0.4.0
 schedule==1.2.1
+email-validator==2.0.0
