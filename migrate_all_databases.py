@@ -12,11 +12,14 @@ import json
 from datetime import datetime
 import time
 
+from dotenv import load_dotenv
+
+load_dotenv()
 # Configuration
 
 
 # MongoDB Atlas connection string
-ATLAS_MONGODB_URI = "mongodb+srv://vamsidulam11:vamsi2005121@cluster0.4kq3vjn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+ATLAS_MONGODB_URI = os.getenv("MONGODB_URI")
 
 # Database mappings: local_db_name -> atlas_db_name
 DATABASE_MAPPINGS = {
