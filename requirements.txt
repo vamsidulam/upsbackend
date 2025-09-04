@@ -1,23 +1,22 @@
+# Web framework
 fastapi==0.104.1
-uvicorn[standard]==0.24.0.post1
+
+# ASGI server
+uvicorn[standard]==0.24.0
+
+# Database
 pymongo==4.6.0
+
+# Environment variables
 python-dotenv==1.0.0
 
-# Authentication dependencies
+# Authentication
 passlib[bcrypt]==1.7.4
 python-jose[cryptography]==3.3.0
+
+# File uploads
 python-multipart==0.0.6
 
-# Data science stack (pinned to versions that work well with Python 3.11)
-numpy==1.26.4
-pandas==2.2.2
-scikit-learn==1.3.2
-joblib==1.3.2
-
-schedule==1.2.0
-websockets==12.0
-requests==2.31.0
-psutil==5.9.6
-
-# Google Generative AI
-google-generativeai==0.3.2
+# Data processing (precompiled wheels for Python 3.13)
+numpy==1.26.4 --only-binary=:all:
+pandas==2.2.2 --only-binary=:all:
