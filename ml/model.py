@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 from pymongo import MongoClient
 from .ml_utils import RandomForestClassifier, StandardScaler, train_test_split, classification_report, confusion_matrix
-import joblib
+import pickle
 import logging
 from datetime import datetime, timedelta
 import json
@@ -210,8 +210,10 @@ class UPSModelTrainer:
         """Save the trained model and scaler"""
         try:
             if self.model and self.scaler:
-                joblib.dump(self.model, self.model_path)
-                joblib.dump(self.scaler, self.scaler_path)
+                with open(self.model_path, "wb") as f:
+                    pickle.dump(self.model, f)
+                with open(self.scaler_path, "wb") as f:
+                    pickle.dump(self.scaler, f)
                 logger.info(f"✅ Model saved to {self.model_path}")
                 logger.info(f"✅ Scaler saved to {self.scaler_path}")
                 return True
@@ -226,8 +228,10 @@ class UPSModelTrainer:
         """Load the trained model and scaler"""
         try:
             if os.path.exists(self.model_path) and os.path.exists(self.scaler_path):
-                self.model = joblib.load(self.model_path)
-                self.scaler = joblib.load(self.scaler_path)
+                with open(self.model_path, "rb") as f:
+                    self.model = pickle.load(f)
+                with open(self.scaler_path, "rb") as f:
+                    self.scaler = pickle.load(f)
                 logger.info("✅ Model and scaler loaded successfully")
                 return True
             else:
