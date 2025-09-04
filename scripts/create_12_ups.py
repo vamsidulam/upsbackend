@@ -9,6 +9,9 @@ import sys
 import random
 from datetime import datetime
 from pymongo import MongoClient
+from dotenv import load_dotenv
+
+load_dotenv()
 
 # Add the parent directory to the path to import modules
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -19,7 +22,7 @@ def create_ups_systems():
     
     try:
         # Connect to MongoDB
-        client = MongoClient("mongodb+srv://vamsidulam11:vamsi2005121@cluster0.4kq3vjn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0/")
+        client = MongoClient(os.getenv("MONGODB_URI"))
         db = client["UPS_DATA_MONITORING"]
         collection = db["upsdata"]
         
