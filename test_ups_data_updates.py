@@ -8,6 +8,10 @@ import json
 import time
 from datetime import datetime
 from pymongo import MongoClient
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
 
 def test_ups_data_updates():
     """Test if UPS data is being updated"""
@@ -17,7 +21,7 @@ def test_ups_data_updates():
     
     # Connect to MongoDB
     try:
-        client = MongoClient("mongodb+srv://vamsidulam11:vamsi2005121@cluster0.4kq3vjn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0/")
+        client = MongoClient(os.getenv("MONGODB_URI"))
         db = client["UPS_DATA_MONITORING"]
         collection = db["upsdata"]
         
