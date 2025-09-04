@@ -5,5 +5,5 @@ python-dotenv==1.0.0
 passlib[bcrypt]==1.7.4
 python-jose[cryptography]==3.3.0
 python-multipart==0.0.6
-numpy==1.26.4 --only-binary=:all:
-pandas==2.2.2 --only-binary=:all:
+numpy==2.3.2
+pandas==2.2.6
