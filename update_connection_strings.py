@@ -8,9 +8,12 @@ import os
 import re
 import glob
 from pathlib import Path
+from dotenv import load_dotenv
+
+load_dotenv()
 
 # MongoDB Atlas connection string
-ATLAS_MONGODB_URI = "mongodb+srv://vamsidulam11:vamsi2005121@cluster0.4kq3vjn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+ATLAS_MONGODB_URI = os.getenv("MONGODB_URI")
 
 # Patterns to search and replace
 REPLACEMENTS = [
