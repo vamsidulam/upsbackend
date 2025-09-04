@@ -17,21 +17,8 @@ ATLAS_MONGODB_URI = os.getenv("MONGODB_URI")
 
 # Patterns to search and replace
 REPLACEMENTS = [
-    # Direct localhost connections
-    (r'mongodb+srv://vamsidulam11:vamsi2005121@cluster0.4kq3vjn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0', ATLAS_MONGODB_URI),
-    (r'mongodb+srv://vamsidulam11:vamsi2005121@cluster0.4kq3vjn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0/', ATLAS_MONGODB_URI),
-    
-    # Environment variable defaults
-    (r'os\.getenv\("MONGODB_URI", "mongodb+srv://vamsidulam11:vamsi2005121@cluster0.4kq3vjn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"\)', 
-     f'os.getenv("MONGODB_URI", "{ATLAS_MONGODB_URI}")'),
-    
-    # Hardcoded localhost in variables
-    (r'= "mongodb+srv://vamsidulam11:vamsi2005121@cluster0.4kq3vjn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"', f'= "{ATLAS_MONGODB_URI}"'),
-    (r'= "mongodb+srv://vamsidulam11:vamsi2005121@cluster0.4kq3vjn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0/"', f'= "{ATLAS_MONGODB_URI}"'),
-    
-    # MongoClient instantiations
-    (r'MongoClient\("mongodb+srv://vamsidulam11:vamsi2005121@cluster0.4kq3vjn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"\)', f'MongoClient("{ATLAS_MONGODB_URI}")'),
-    (r'MongoClient\("mongodb+srv://vamsidulam11:vamsi2005121@cluster0.4kq3vjn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0/"\)', f'MongoClient("{ATLAS_MONGODB_URI}")'),
+    # Remove any remaining hardcoded localhost patterns
+  
 ]
 
 def update_file(file_path):
