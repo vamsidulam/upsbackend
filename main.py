@@ -141,18 +141,22 @@ async def startup_event():
         collection_count = ups_collection.count_documents({}, maxTimeMS=30000)
         logger.info(f"✅ Database accessible. Collection has {collection_count} documents")
         
-        # TEMPORARILY DISABLE BACKGROUND SERVICES TO AVOID GEMINI API QUOTA ISSUES
-        logger.warning("⚠️ Background services temporarily disabled to ensure server stability")
-        logger.warning("⚠️ Continuous predictions and monitoring will be started manually later")
-        logger.info("✅ Server starting in stable mode with fallback failure reason system")
+        # RE-ENABLE BACKGROUND SERVICES FOR REAL-TIME MONITORING
+        logger.info("🚀 Starting background monitoring services...")
+        logger.info("📊 UPS data will update every 1 minute")
+        logger.info("🔮 ML predictions will run every 15 minutes")
         
-        # Background services disabled for now - will be re-enabled once Gemini API quota resets
-        # continuous_service = continuous_predictions.ContinuousPredictionService()
-        # asyncio.create_task(continuous_service.run_loop())
-        # monitor_service = monitor.UPSMonitorService()
-        # asyncio.create_task(monitor_service.run_loop())
+        # Start continuous prediction service
+        continuous_service = continuous_predictions.ContinuousPredictionService()
+        asyncio.create_task(continuous_service.run_loop())
+        logger.info("✅ Continuous prediction service started")
         
-        logger.info("🎉 Server started successfully in stable mode")
+        # Start UPS monitoring service (updates data every 1 minute)
+        monitor_service = monitor.UPSMonitorService()
+        asyncio.create_task(monitor_service.run_loop())
+        logger.info("✅ UPS monitoring service started")
+        
+        logger.info("🎉 Server started successfully with real-time monitoring enabled")
         
     except Exception as e:
         logger.error(f"❌ Failed to connect to MongoDB: {e}")
@@ -1517,14 +1521,14 @@ async def get_system_status():
                 "document_count": collection_count
             },
             "background_services": {
-                "continuous_predictions": "temporarily_disabled (stability_mode)",
-                "ups_monitoring": "temporarily_disabled (stability_mode)",
-                "gemini_ai": "quota_exceeded (using_fallback_system)"
+                "continuous_predictions": "enabled (running every 30 minutes)",
+                "ups_monitoring": "enabled (updating every 1 minute)",
+                "gemini_ai": "enabled (with fallback system)"
             },
             "system": {
                 "timestamp": datetime.now().isoformat(),
                 "uptime": "running",
-                "mode": "stable_mode",
+                "mode": "real_time_monitoring",
                 "fallback_system": "active"
             }
         }
