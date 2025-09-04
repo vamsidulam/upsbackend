@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 from .ml_utils import RandomForestClassifier, train_test_split, accuracy_score, classification_report, confusion_matrix
-import joblib
+import pickle
 import logging
 import os
 from datetime import datetime
@@ -139,7 +139,8 @@ class EnhancedUPSModelTrainer:
         """Save the trained model to disk"""
         try:
             if self.model is not None:
-                joblib.dump(self.model, self.model_path)
+                with open(self.model_path, "wb") as f:
+                    pickle.dump(self.model, f)
                 logger.info(f"Model saved to {self.model_path}")
             else:
                 logger.warning("No model to save")
@@ -150,7 +151,8 @@ class EnhancedUPSModelTrainer:
         """Load the trained model from disk"""
         try:
             if os.path.exists(self.model_path):
-                self.model = joblib.load(self.model_path)
+                with open(self.model_path, "rb") as f:
+                    self.model = pickle.load(f)
                 logger.info(f"Model loaded from {self.model_path}")
                 return True
             else:
