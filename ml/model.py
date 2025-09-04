@@ -1,10 +1,7 @@
 import pandas as pd
 import numpy as np
 from pymongo import MongoClient
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.preprocessing import StandardScaler
-from sklearn.model_selection import train_test_split
-from sklearn.metrics import classification_report, confusion_matrix
+from .ml_utils import RandomForestClassifier, StandardScaler, train_test_split, classification_report, confusion_matrix
 import joblib
 import logging
 from datetime import datetime, timedelta
